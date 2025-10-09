@@ -1,0 +1,282 @@
+[
+  {
+    "title": "The Witcher 3: Wild Hunt",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "RPG",
+      "Open World"
+    ],
+    "rating": 9.7,
+    "review": "A sprawling dark-fantasy RPG with rich storytelling and meaningful choices.",
+    "releaseDate": "2015-05-19",
+    "coverImageUrl": "https://picsum.photos/seed/witcher3/600/900"
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "RPG",
+      "Turn-Based"
+    ],
+    "rating": 9.6,
+    "review": "Deep D&D role\u2011playing with reactive quests and party-driven narratives.",
+    "releaseDate": "2023-08-03",
+    "coverImageUrl": "https://picsum.photos/seed/bg3/600/900"
+  },
+  {
+    "title": "Elden Ring",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "rating": 9.5,
+    "review": "Vast open world Souls-like with discovery-driven exploration and brutal boss fights.",
+    "releaseDate": "2022-02-25",
+    "coverImageUrl": "https://picsum.photos/seed/eldenring/600/900"
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "RPG",
+      "Action"
+    ],
+    "rating": 9.0,
+    "review": "Neon-drenched RPG shooter with cinematic quests and the acclaimed 2.0/Phantom Liberty updates.",
+    "releaseDate": "2020-12-10",
+    "coverImageUrl": "https://picsum.photos/seed/cyberpunk2077/600/900"
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Action",
+      "Open World"
+    ],
+    "rating": 9.6,
+    "review": "Meticulous frontier epic with unmatched atmosphere and character work.",
+    "releaseDate": "2019-11-05",
+    "coverImageUrl": "https://picsum.photos/seed/rdr2/600/900"
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Action",
+      "Open World"
+    ],
+    "rating": 9.4,
+    "review": "Chaotic sandbox heists and a massive online component.",
+    "releaseDate": "2015-04-14",
+    "coverImageUrl": "https://picsum.photos/seed/gtav/600/900"
+  },
+  {
+    "title": "Counter\u2011Strike 2",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "FPS",
+      "Competitive"
+    ],
+    "rating": 9.0,
+    "review": "Precision tactical shooter with round-based economy and razor\u2011sharp gunplay.",
+    "releaseDate": "2023-09-27",
+    "coverImageUrl": "https://picsum.photos/seed/cs2/600/900"
+  },
+  {
+    "title": "Dota 2",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "MOBA",
+      "Strategy"
+    ],
+    "rating": 9.1,
+    "review": "Team-based strategy with an astronomical skill ceiling and evolving meta.",
+    "releaseDate": "2013-07-09",
+    "coverImageUrl": "https://picsum.photos/seed/dota2/600/900"
+  },
+  {
+    "title": "League of Legends",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "MOBA",
+      "Strategy"
+    ],
+    "rating": 9.0,
+    "review": "Fast-paced 5v5 MOBA with a gigantic roster and competitive scene.",
+    "releaseDate": "2009-10-27",
+    "coverImageUrl": "https://picsum.photos/seed/lol/600/900"
+  },
+  {
+    "title": "Minecraft",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Sandbox",
+      "Survival"
+    ],
+    "rating": 9.5,
+    "review": "Endlessly creative building and survival with blocky charm.",
+    "releaseDate": "2011-11-18",
+    "coverImageUrl": "https://picsum.photos/seed/minecraft/600/900"
+  },
+  {
+    "title": "Stardew Valley",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulation",
+      "RPG"
+    ],
+    "rating": 9.3,
+    "review": "Cozy farming life sim with heartfelt characters and progression.",
+    "releaseDate": "2016-02-26",
+    "coverImageUrl": "https://picsum.photos/seed/stardew/600/900"
+  },
+  {
+    "title": "Hades",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Roguelike",
+      "Action"
+    ],
+    "rating": 9.4,
+    "review": "Addictive roguelike combat wrapped in stylish storytelling and VO.",
+    "releaseDate": "2020-09-17",
+    "coverImageUrl": "https://picsum.photos/seed/hades/600/900"
+  },
+  {
+    "title": "DOOM Eternal",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "FPS",
+      "Action"
+    ],
+    "rating": 9.2,
+    "review": "Relentless, rhythmic arena combat with mobility and resource loops.",
+    "releaseDate": "2020-03-20",
+    "coverImageUrl": "https://picsum.photos/seed/doometernal/600/900"
+  },
+  {
+    "title": "Half\u2011Life: Alyx",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "VR",
+      "FPS"
+    ],
+    "rating": 9.3,
+    "review": "Benchmark VR shooter with tactile interactions and immaculate pacing.",
+    "releaseDate": "2020-03-23",
+    "coverImageUrl": "https://picsum.photos/seed/alyx/600/900"
+  },
+  {
+    "title": "Portal 2",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "rating": 9.6,
+    "review": "Witty physics puzzles with brilliant co\u2011op design.",
+    "releaseDate": "2011-04-19",
+    "coverImageUrl": "https://picsum.photos/seed/portal2/600/900"
+  },
+  {
+    "title": "Terraria",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Sandbox",
+      "Adventure"
+    ],
+    "rating": 9.1,
+    "review": "2D sandbox exploration with crafting, bosses, and endless progression.",
+    "releaseDate": "2011-05-16",
+    "coverImageUrl": "https://picsum.photos/seed/terraria/600/900"
+  },
+  {
+    "title": "Apex Legends",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Battle Royale",
+      "FPS"
+    ],
+    "rating": 8.9,
+    "review": "Hero shooter battle royale with slick movement and squad synergies.",
+    "releaseDate": "2019-02-04",
+    "coverImageUrl": "https://picsum.photos/seed/apex/600/900"
+  },
+  {
+    "title": "Fortnite",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Battle Royale",
+      "Shooter"
+    ],
+    "rating": 8.8,
+    "review": "Cartoony battle royale with constant live\u2011service content drops.",
+    "releaseDate": "2017-09-26",
+    "coverImageUrl": "https://picsum.photos/seed/fortnite/600/900"
+  },
+  {
+    "title": "Overwatch 2",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Hero Shooter",
+      "FPS"
+    ],
+    "rating": 8.5,
+    "review": "5v5 hero shooter emphasizing abilities, team comps, and ult economy.",
+    "releaseDate": "2022-10-04",
+    "coverImageUrl": "https://picsum.photos/seed/ow2/600/900"
+  },
+  {
+    "title": "Assassin's Creed Valhalla",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "rating": 8.7,
+    "review": "Nordic saga with settlement building and sprawling exploration.",
+    "releaseDate": "2020-11-10",
+    "coverImageUrl": "https://picsum.photos/seed/valhalla/600/900"
+  }
+]

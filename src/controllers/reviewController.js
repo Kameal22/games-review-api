@@ -39,6 +39,19 @@ export async function getReviews(req, res, next) {
   }
 }
 
+export async function getReviewById(req, res, next) {
+  try {
+    const { id } = req.params;
+    const review = await Review.findById(id)
+      .populate("user", "displayName")
+      .populate("game", "title slug coverImageUrl genres releaseDate");
+    if (!review) return res.status(404).json({ message: "Review not found" });
+    res.json(review);
+  } catch (err) {
+    next(err);
+  }
+}
+
 export async function createReview(req, res, next) {
   try {
     const userId = req.user?.sub;

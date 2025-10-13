@@ -19,6 +19,26 @@ const createSchema = z.object({
   finalScore: score.optional(),
 });
 
+export async function getReviews(req, res, next) {
+  try {
+    // optional pagination via ?limit=10&skip=0
+    const limit = Math.min(parseInt(req.query.limit ?? "10", 10), 50);
+    const skip = parseInt(req.query.skip ?? "0", 10);
+
+    const reviews = await Review.find({})
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit)
+      .populate("user", "displayName") // only return displayName
+      .populate("game", "title slug coverImageUrl genres releaseDate") // select game fields you need
+      .lean();
+
+    res.json(reviews);
+  } catch (err) {
+    next(err);
+  }
+}
+
 export async function createReview(req, res, next) {
   try {
     const userId = req.user?.sub;

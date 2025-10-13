@@ -39,14 +39,27 @@ export async function getReviews(req, res, next) {
   }
 }
 
-export async function getReviewById(req, res, next) {
+export async function listUserReviews(req, res, next) {
   try {
-    const { id } = req.params;
-    const review = await Review.findById(id)
+    const { userId } = req.params;
+
+    if (!mongoose.Types.ObjectId.isValid(userId)) {
+      return res.status(400).json({ message: "Invalid userId" });
+    }
+
+    // optional pagination: ?limit=10&skip=0
+    const limit = Math.min(parseInt(req.query.limit ?? "20", 10), 50);
+    const skip = parseInt(req.query.skip ?? "0", 10);
+
+    const reviews = await Review.find({ user: userId })
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit)
       .populate("user", "displayName")
-      .populate("game", "title slug coverImageUrl genres releaseDate");
-    if (!review) return res.status(404).json({ message: "Review not found" });
-    res.json(review);
+      .populate("game", "title slug coverImageUrl genres releaseDate")
+      .lean();
+
+    res.json(reviews);
   } catch (err) {
     next(err);
   }

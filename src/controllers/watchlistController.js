@@ -71,17 +71,20 @@ export async function updateWatchlistStatus(req, res, next) {
   }
 }
 
-export async function removeFromWatchlist(req, res, next) {
+export async function removeFromWatchlistByGame(req, res, next) {
   try {
     const userId = req.user?.sub;
-    const { id } = req.params; // watchlist entry id
-    if (!mongoose.Types.ObjectId.isValid(id))
-      return res.status(400).json({ message: "Invalid id" });
-
-    const entry = await Watchlist.findOneAndDelete({ _id: id, user: userId });
+    const { gameId } = req.params;
+    if (!mongoose.Types.ObjectId.isValid(gameId)) {
+      return res.status(400).json({ message: "Invalid gameId" });
+    }
+    const entry = await Watchlist.findOneAndDelete({
+      user: userId,
+      game: gameId,
+    });
     if (!entry)
       return res.status(404).json({ message: "Watchlist entry not found" });
-    res.json({ message: "Deleted", id: entry._id });
+    res.json({ message: "Deleted", id: entry._id, game: gameId });
   } catch (err) {
     next(err);
   }

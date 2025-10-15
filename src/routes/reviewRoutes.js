@@ -4,13 +4,13 @@ import {
   createReview,
   updateReview,
   getReviews,
-  listUserReviews,
+  listMyReviews,
 } from "../controllers/reviewController.js";
 
 const router = Router();
 
 router.get("/", requireAuth, getReviews); // GET /api/reviews
-router.get("/user/:userId", requireAuth, listUserReviews); // GET /api/reviews/user/:userId
+router.get("/me", requireAuth, listMyReviews); // GET /api/reviews/me
 router.post("/", requireAuth, createReview); // POST /api/reviews
 router.patch("/:id", requireAuth, updateReview); // PATCH /api/reviews/:id
 

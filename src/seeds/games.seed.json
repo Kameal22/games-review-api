@@ -1,282 +1,625 @@
 [
   {
     "title": "The Witcher 3: Wild Hunt",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "RPG",
-      "Open World"
-    ],
-    "rating": 9.7,
-    "review": "A sprawling dark-fantasy RPG with rich storytelling and meaningful choices.",
+    "description": "An open-world fantasy RPG where Geralt of Rivia searches for his adopted daughter while navigating war and monsters.",
+    "genres": ["RPG", "Open World"],
     "releaseDate": "2015-05-19",
-    "coverImageUrl": "https://picsum.photos/seed/witcher3/600/900"
-  },
-  {
-    "title": "Baldur's Gate 3",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "RPG",
-      "Turn-Based"
-    ],
-    "rating": 9.6,
-    "review": "Deep D&D role\u2011playing with reactive quests and party-driven narratives.",
-    "releaseDate": "2023-08-03",
-    "coverImageUrl": "https://picsum.photos/seed/bg3/600/900"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Witcher_3_cover_art.jpg/250px-Witcher_3_cover_art.jpg"
   },
   {
     "title": "Elden Ring",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Action",
-      "RPG"
-    ],
-    "rating": 9.5,
-    "review": "Vast open world Souls-like with discovery-driven exploration and brutal boss fights.",
+    "description": "A massive open-world action RPG developed by FromSoftware and George R.R. Martin.",
+    "genres": ["Action", "RPG"],
     "releaseDate": "2022-02-25",
-    "coverImageUrl": "https://picsum.photos/seed/eldenring/600/900"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Elden_Ring_Box_art.jpg/250px-Elden_Ring_Box_art.jpg"
   },
   {
     "title": "Cyberpunk 2077",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "RPG",
-      "Action"
-    ],
-    "rating": 9.0,
-    "review": "Neon-drenched RPG shooter with cinematic quests and the acclaimed 2.0/Phantom Liberty updates.",
+    "description": "An open-world sci-fi RPG set in Night City, where players explore a dystopian future of cybernetic implants and corporations.",
+    "genres": ["RPG", "Action"],
     "releaseDate": "2020-12-10",
-    "coverImageUrl": "https://picsum.photos/seed/cyberpunk2077/600/900"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Cyberpunk_2077_box_art.jpg/250px-Cyberpunk_2077_box_art.jpg"
   },
   {
     "title": "Red Dead Redemption 2",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Action",
-      "Open World"
-    ],
-    "rating": 9.6,
-    "review": "Meticulous frontier epic with unmatched atmosphere and character work.",
-    "releaseDate": "2019-11-05",
-    "coverImageUrl": "https://picsum.photos/seed/rdr2/600/900"
+    "description": "Epic western adventure following Arthur Morgan and the Van der Linde gang in a changing America.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2018-10-26",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Red_Dead_Redemption_II.jpg/250px-Red_Dead_Redemption_II.jpg"
   },
   {
-    "title": "Grand Theft Auto V",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Action",
-      "Open World"
-    ],
-    "rating": 9.4,
-    "review": "Chaotic sandbox heists and a massive online component.",
-    "releaseDate": "2015-04-14",
-    "coverImageUrl": "https://picsum.photos/seed/gtav/600/900"
-  },
-  {
-    "title": "Counter\u2011Strike 2",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "FPS",
-      "Competitive"
-    ],
-    "rating": 9.0,
-    "review": "Precision tactical shooter with round-based economy and razor\u2011sharp gunplay.",
-    "releaseDate": "2023-09-27",
-    "coverImageUrl": "https://picsum.photos/seed/cs2/600/900"
-  },
-  {
-    "title": "Dota 2",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "MOBA",
-      "Strategy"
-    ],
-    "rating": 9.1,
-    "review": "Team-based strategy with an astronomical skill ceiling and evolving meta.",
-    "releaseDate": "2013-07-09",
-    "coverImageUrl": "https://picsum.photos/seed/dota2/600/900"
-  },
-  {
-    "title": "League of Legends",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "MOBA",
-      "Strategy"
-    ],
-    "rating": 9.0,
-    "review": "Fast-paced 5v5 MOBA with a gigantic roster and competitive scene.",
-    "releaseDate": "2009-10-27",
-    "coverImageUrl": "https://picsum.photos/seed/lol/600/900"
-  },
-  {
-    "title": "Minecraft",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Sandbox",
-      "Survival"
-    ],
-    "rating": 9.5,
-    "review": "Endlessly creative building and survival with blocky charm.",
-    "releaseDate": "2011-11-18",
-    "coverImageUrl": "https://picsum.photos/seed/minecraft/600/900"
-  },
-  {
-    "title": "Stardew Valley",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Simulation",
-      "RPG"
-    ],
-    "rating": 9.3,
-    "review": "Cozy farming life sim with heartfelt characters and progression.",
-    "releaseDate": "2016-02-26",
-    "coverImageUrl": "https://picsum.photos/seed/stardew/600/900"
+    "title": "God of War",
+    "description": "Kratos embarks on a journey with his son Atreus through Norse mythology in this action epic.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2018-04-20",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/God_of_War_4_cover.jpg/250px-God_of_War_4_cover.jpg"
   },
   {
     "title": "Hades",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Roguelike",
-      "Action"
-    ],
-    "rating": 9.4,
-    "review": "Addictive roguelike combat wrapped in stylish storytelling and VO.",
+    "description": "Battle your way out of the Underworld as Zagreus, son of Hades, in this roguelike masterpiece.",
+    "genres": ["Action", "Roguelike"],
     "releaseDate": "2020-09-17",
-    "coverImageUrl": "https://picsum.photos/seed/hades/600/900"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Hades_cover_art.jpg/250px-Hades_cover_art.jpg"
+  },
+  {
+    "title": "Stardew Valley",
+    "description": "A cozy farming RPG where you restore your grandfather’s farm, build relationships, and explore caves.",
+    "genres": ["Simulation", "RPG"],
+    "releaseDate": "2016-02-26",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Logo_of_Stardew_Valley.png/250px-Logo_of_Stardew_Valley.png"
+  },
+  {
+    "title": "Baldur’s Gate 3",
+    "description": "A deep narrative-driven RPG set in the Dungeons & Dragons universe with branching choices and tactical combat.",
+    "genres": ["RPG", "Adventure"],
+    "releaseDate": "2023-08-03",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Baldur%27s_Gate_3_cover_art.jpg/250px-Baldur%27s_Gate_3_cover_art.jpg"
+  },
+  {
+    "title": "Hogwarts Legacy",
+    "description": "An open-world RPG set in the wizarding world of Harry Potter, allowing players to live their own magical adventure.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2023-02-10",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Hogwarts_legacyboxart.svg/250px-Hogwarts_legacyboxart.svg.png"
+  },
+  {
+    "title": "Resident Evil 4 Remake",
+    "description": "A reimagining of the survival horror classic where Leon S. Kennedy rescues the President’s daughter from a sinister cult.",
+    "genres": ["Horror", "Action"],
+    "releaseDate": "2023-03-24",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Resident_Evil_4_remake_cover_art.jpg/250px-Resident_Evil_4_remake_cover_art.jpg"
+  },
+  {
+    "title": "Sekiro: Shadows Die Twice",
+    "description": "A shinobi embarks on a mission of revenge in late 1500s Japan. Punishing combat, stealth, and exploration.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2019-03-22",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Sekiro_art.jpg/250px-Sekiro_art.jpg"
+  },
+  {
+    "title": "Assassin’s Creed Valhalla",
+    "description": "Play as Eivor, a Viking raider exploring England’s dark ages in this expansive open-world RPG.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2020-11-10",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Assassin%27s_Creed_Valhalla_cover.jpg/250px-Assassin%27s_Creed_Valhalla_cover.jpg"
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "description": "Follow three criminals as they commit heists in the sprawling open world of Los Santos.",
+    "genres": ["Action", "Open World"],
+    "releaseDate": "2013-09-17",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Grand_Theft_Auto_V.png/250px-Grand_Theft_Auto_V.png"
+  },
+  {
+    "title": "Fallout 4",
+    "description": "Explore the post-apocalyptic ruins of Boston and build your own settlements in this massive RPG.",
+    "genres": ["RPG", "Open World"],
+    "releaseDate": "2015-11-10",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Fallout_4_cover_art.jpg/250px-Fallout_4_cover_art.jpg"
+  },
+  {
+    "title": "Skyrim",
+    "description": "The Elder Scrolls V: Skyrim offers limitless adventures across the northern realm of Tamriel.",
+    "genres": ["RPG", "Open World"],
+    "releaseDate": "2011-11-11",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png"
   },
   {
     "title": "DOOM Eternal",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "FPS",
-      "Action"
-    ],
-    "rating": 9.2,
-    "review": "Relentless, rhythmic arena combat with mobility and resource loops.",
+    "description": "Fast-paced, brutal FPS action where you battle demons from Hell to save humanity.",
+    "genres": ["Action", "Shooter"],
     "releaseDate": "2020-03-20",
-    "coverImageUrl": "https://picsum.photos/seed/doometernal/600/900"
-  },
-  {
-    "title": "Half\u2011Life: Alyx",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "VR",
-      "FPS"
-    ],
-    "rating": 9.3,
-    "review": "Benchmark VR shooter with tactile interactions and immaculate pacing.",
-    "releaseDate": "2020-03-23",
-    "coverImageUrl": "https://picsum.photos/seed/alyx/600/900"
-  },
-  {
-    "title": "Portal 2",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Puzzle",
-      "Adventure"
-    ],
-    "rating": 9.6,
-    "review": "Witty physics puzzles with brilliant co\u2011op design.",
-    "releaseDate": "2011-04-19",
-    "coverImageUrl": "https://picsum.photos/seed/portal2/600/900"
-  },
-  {
-    "title": "Terraria",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Sandbox",
-      "Adventure"
-    ],
-    "rating": 9.1,
-    "review": "2D sandbox exploration with crafting, bosses, and endless progression.",
-    "releaseDate": "2011-05-16",
-    "coverImageUrl": "https://picsum.photos/seed/terraria/600/900"
-  },
-  {
-    "title": "Apex Legends",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Battle Royale",
-      "FPS"
-    ],
-    "rating": 8.9,
-    "review": "Hero shooter battle royale with slick movement and squad synergies.",
-    "releaseDate": "2019-02-04",
-    "coverImageUrl": "https://picsum.photos/seed/apex/600/900"
-  },
-  {
-    "title": "Fortnite",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Battle Royale",
-      "Shooter"
-    ],
-    "rating": 8.8,
-    "review": "Cartoony battle royale with constant live\u2011service content drops.",
-    "releaseDate": "2017-09-26",
-    "coverImageUrl": "https://picsum.photos/seed/fortnite/600/900"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Cover_Art_of_Doom_Eternal.png/250px-Cover_Art_of_Doom_Eternal.png"
   },
   {
     "title": "Overwatch 2",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Hero Shooter",
-      "FPS"
-    ],
-    "rating": 8.5,
-    "review": "5v5 hero shooter emphasizing abilities, team comps, and ult economy.",
+    "description": "Team-based hero shooter with fast-paced gameplay and unique characters.",
+    "genres": ["Shooter", "Multiplayer"],
     "releaseDate": "2022-10-04",
-    "coverImageUrl": "https://picsum.photos/seed/ow2/600/900"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Overwatch_2_Steam_artwork.jpg/250px-Overwatch_2_Steam_artwork.jpg"
   },
   {
-    "title": "Assassin's Creed Valhalla",
-    "platforms": [
-      "PC"
-    ],
-    "genres": [
-      "Action",
-      "RPG"
-    ],
-    "rating": 8.7,
-    "review": "Nordic saga with settlement building and sprawling exploration.",
-    "releaseDate": "2020-11-10",
-    "coverImageUrl": "https://picsum.photos/seed/valhalla/600/900"
+    "title": "Minecraft",
+    "description": "Creative sandbox game allowing players to build, explore, and survive in blocky worlds.",
+    "genres": ["Survival", "Sandbox"],
+    "releaseDate": "2011-11-18",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Minecraft_Alex_and_fauna.png/250px-Minecraft_Alex_and_fauna.png"
+  },
+  {
+    "title": "Terraria",
+    "description": "2D adventure game combining building, crafting, combat, and exploration.",
+    "genres": ["Adventure", "Sandbox"],
+    "releaseDate": "2011-05-16",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Terraria_Steam_artwork.jpg/250px-Terraria_Steam_artwork.jpg"
+  },
+  {
+    "title": "Hollow Knight",
+    "description": "A beautifully hand-drawn metroidvania filled with mysterious bugs and challenging bosses.",
+    "genres": ["Action", "Metroidvania"],
+    "releaseDate": "2017-02-24",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Hollow_Knight_first_cover_art.webp/250px-Hollow_Knight_first_cover_art.webp.png"
+  }  ,
+  {
+    "title": "Dark Souls III",
+    "description": "The final chapter of the Dark Souls series, featuring brutal combat and intricate world design.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2016-04-12",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Dark_souls_3_cover_art.jpg/250px-Dark_souls_3_cover_art.jpg"
+  },
+  {
+    "title": "Forza Horizon 5",
+    "description": "Explore the vibrant landscapes of Mexico in this open-world racing experience.",
+    "genres": ["Racing", "Simulation"],
+    "releaseDate": "2021-11-09",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Forza_Horizon_5_cover_art.jpg/250px-Forza_Horizon_5_cover_art.jpg"
+  },
+  {
+    "title": "Battlefield 2042",
+    "description": "Futuristic large-scale warfare featuring up to 128 players, vehicles, and dynamic weather.",
+    "genres": ["Shooter", "Multiplayer"],
+    "releaseDate": "2021-11-19",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Battlefield_2042_cover_art.jpg/250px-Battlefield_2042_cover_art.jpg"
+  },
+  {
+    "title": "Call of Duty: Modern Warfare II",
+    "description": "The sequel to the 2019 reboot, featuring intense campaign missions and multiplayer modes.",
+    "genres": ["Shooter", "Action"],
+    "releaseDate": "2022-10-28",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Call_of_Duty_Modern_Warfare_II_Key_Art.jpg/250px-Call_of_Duty_Modern_Warfare_II_Key_Art.jpg"
+  },
+  {
+    "title": "Alan Wake 2",
+    "description": "A psychological horror sequel that blends storytelling, mystery, and survival horror.",
+    "genres": ["Horror", "Adventure"],
+    "releaseDate": "2023-10-27",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Alan_Wake_II_vertical_logo.svg/250px-Alan_Wake_II_vertical_logo.svg.png"
+  },
+  {
+    "title": "Lies of P",
+    "description": "A dark Souls-like inspired by Pinocchio, with challenging combat and gothic visuals.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2023-09-19",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Lies_of_p_cover_art.jpg/250px-Lies_of_p_cover_art.jpg"
+  },
+  {
+    "title": "Dead Space (Remake)",
+    "description": "A complete remake of the sci-fi horror classic, with modern graphics and immersive sound.",
+    "genres": ["Horror", "Action"],
+    "releaseDate": "2023-01-27",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Dead_Space_2022_Teaser_Art.jpg/250px-Dead_Space_2022_Teaser_Art.jpg"
+  },
+  {
+    "title": "Control",
+    "description": "A supernatural third-person action game set in a shifting government building known as the Oldest House.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2019-08-27",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Control_game_cover_art.jpg/250px-Control_game_cover_art.jpg"
+  },
+  {
+    "title": "The Last of Us Part I",
+    "description": "A remake of the classic story-driven action game about survival and human connection.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2023-03-28",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/The_Last_of_Us_Part_I_cover.jpg/250px-The_Last_of_Us_Part_I_cover.jpg"
+  },
+  {
+    "title": "Ghost of Tsushima",
+    "description": "An open-world samurai epic set in feudal Japan as Jin Sakai fights to defend his homeland.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2021-08-20",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Ghost_of_Tsushima.jpg/250px-Ghost_of_Tsushima.jpg"
+  },
+  {
+    "title": "Death Stranding",
+    "description": "Traverse a fragmented America as Sam Porter Bridges, reconnecting humanity through deliveries.",
+    "genres": ["Adventure", "Sci-Fi"],
+    "releaseDate": "2019-11-08",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Death_Stranding.jpg/250px-Death_Stranding.jpg"
+  },
+  {
+    "title": "Marvel’s Spider-Man Remastered",
+    "description": "Play as Peter Parker in this action-packed superhero adventure set in New York City.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2022-08-12",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Spider-Man_PS4_cover.jpg/250px-Spider-Man_PS4_cover.jpg"
+  },
+  {
+    "title": "Hitman 3",
+    "description": "The conclusion to the World of Assassination trilogy, featuring open-ended stealth missions.",
+    "genres": ["Stealth", "Action"],
+    "releaseDate": "2021-01-20",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Hitman_3_Packart.jpg/250px-Hitman_3_Packart.jpg"
+  },
+  {
+    "title": "Returnal",
+    "description": "A sci-fi roguelike where an astronaut relives a deadly time loop on an alien planet.",
+    "genres": ["Action", "Roguelike"],
+    "releaseDate": "2023-02-15",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Returnal_cover_art.jpg/250px-Returnal_cover_art.jpg"
+  },
+  {
+    "title": "Far Cry 6",
+    "description": "A revolution-themed shooter set in the fictional Caribbean island of Yara ruled by a dictator.",
+    "genres": ["Shooter", "Open World"],
+    "releaseDate": "2021-10-07",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Far_cry_6_cover.jpg/250px-Far_cry_6_cover.jpg"
+  },
+  {
+    "title": "Dying Light 2 Stay Human",
+    "description": "A zombie parkour action game set in a vast post-apocalyptic city.",
+    "genres": ["Action", "Survival"],
+    "releaseDate": "2022-02-04",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Dying_Light_2_cover_art.jpg/250px-Dying_Light_2_cover_art.jpg"
+  },
+  {
+    "title": "Assassin’s Creed Mirage",
+    "description": "Return to the franchise’s roots in this stealth-focused adventure set in Baghdad.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2023-10-05",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Assassin%27s_Creed_Mirage_cover.jpeg/250px-Assassin%27s_Creed_Mirage_cover.jpeg"
+  },
+  {
+    "title": "Starfield",
+    "description": "A next-generation space RPG from Bethesda featuring over 1000 explorable planets.",
+    "genres": ["RPG", "Sci-Fi"],
+    "releaseDate": "2023-09-06",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Bethesda_Starfield.jpg/250px-Bethesda_Starfield.jpg"
+  },
+  {
+    "title": "Diablo IV",
+    "description": "The legendary action RPG returns with a dark open world and deep character customization.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2023-06-06",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Diablo_IV_cover_art.png/250px-Diablo_IV_cover_art.png"
+  },
+  {
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "description": "Sequel to Breath of the Wild, offering new mechanics and expanded exploration.",
+    "genres": ["Adventure", "Action"],
+    "releaseDate": "2023-05-12",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg/250px-The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg"
+  },
+  {
+    "title": "Horizon Forbidden West",
+    "description": "Aloy journeys into the west to uncover secrets about the ancient world and new machines.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2022-02-18",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Horizon_Forbidden_West_cover_art.jpg/250px-Horizon_Forbidden_West_cover_art.jpg"
+  },
+  {
+    "title": "Resident Evil Village",
+    "description": "Ethan Winters faces new horrors in a mysterious European village.",
+    "genres": ["Horror", "Action"],
+    "releaseDate": "2021-05-07",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2c/Resident_Evil_Village.png"
+  },
+  {
+    "title": "Cuphead",
+    "description": "Challenging run-and-gun platformer inspired by 1930s animation and jazz music.",
+    "genres": ["Platformer", "Action"],
+    "releaseDate": "2017-09-29",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Cuphead_promo_logo_ddwtd.png/250px-Cuphead_promo_logo_ddwtd.png"
+  },
+  {
+    "title": "It Takes Two",
+    "description": "A cooperative action-adventure about a couple navigating imaginative worlds to fix their relationship.",
+    "genres": ["Co-op", "Adventure"],
+    "releaseDate": "2021-03-26",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/It_Takes_Two_cover_art.png/250px-It_Takes_Two_cover_art.png"
+  },
+  {
+    "title": "Celeste",
+    "description": "A challenging indie platformer about climbing a mountain and facing inner struggles.",
+    "genres": ["Platformer", "Indie"],
+    "releaseDate": "2018-01-25",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Celeste_box_art_full.png/250px-Celeste_box_art_full.png"
+  },
+  {
+    "title": "Slay the Spire",
+    "description": "A roguelike deck-building card game that challenges players to craft strategies through procedural dungeons.",
+    "genres": ["Indie", "Strategy"],
+    "releaseDate": "2019-01-23",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Slay_the_spire_cover.jpg/250px-Slay_the_spire_cover.jpg"
+  },
+  {
+    "title": "Undertale",
+    "description": "An RPG where no one has to die. Battle or befriend monsters in a witty, emotional story.",
+    "genres": ["RPG", "Indie"],
+    "releaseDate": "2015-09-15",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Undertale_vector_logo_on_black_borders.svg/250px-Undertale_vector_logo_on_black_borders.svg.png"
+  },
+  {
+    "title": "Dead Cells",
+    "description": "A roguelike metroidvania where you fight, die, and try again with procedural levels and fluid combat.",
+    "genres": ["Action", "Roguelike"],
+    "releaseDate": "2018-08-07",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Dead_cells_cover_art.png/250px-Dead_cells_cover_art.png"
+  },
+  {
+    "title": "Hollow Knight: Silksong",
+    "description": "Sequel to Hollow Knight — explore new kingdoms, battle new foes, and uncover secrets as Hornet.",
+    "genres": ["Action", "Metroidvania"],
+    "releaseDate": "2024-09-30",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Silksong.jpg/250px-Silksong.jpg"
+  },
+  {
+    "title": "The Binding of Isaac: Rebirth",
+    "description": "A dark, randomly generated roguelike shooter filled with monsters, upgrades, and secrets.",
+    "genres": ["Action", "Indie"],
+    "releaseDate": "2014-11-04",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/The_Binding_of_Issac_Rebirth_cover.jpg/250px-The_Binding_of_Issac_Rebirth_cover.jpg"
+  },
+  {
+    "title": "Limbo",
+    "description": "A monochromatic puzzle-platformer exploring themes of loss, death, and mystery.",
+    "genres": ["Puzzle", "Indie"],
+    "releaseDate": "2010-07-21",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/LIMBO_Logo.png/250px-LIMBO_Logo.png"
+  },
+  {
+    "title": "Subnautica",
+    "description": "Explore an alien ocean world full of danger and beauty in this underwater survival adventure.",
+    "genres": ["Adventure", "Survival"],
+    "releaseDate": "2018-01-23",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Subnautica_cover_art.png/250px-Subnautica_cover_art.png"
+  },
+  {
+    "title": "Outer Wilds",
+    "description": "A space exploration game where you unravel the mysteries of a solar system trapped in a time loop.",
+    "genres": ["Adventure", "Exploration"],
+    "releaseDate": "2019-05-28",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Outer_Wilds_Steam_artwork.jpg/250px-Outer_Wilds_Steam_artwork.jpg"
+  },
+  {
+    "title": "No Man’s Sky",
+    "description": "Explore an infinite procedurally generated universe filled with planets, lifeforms, and mysteries.",
+    "genres": ["Exploration", "Survival"],
+    "releaseDate": "2016-08-12",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/No_Man%27s_Sky.jpg/250px-No_Man%27s_Sky.jpg"
+  },
+  {
+    "title": "The Last of Us Part II",
+    "description": "Ellie embarks on a harrowing journey of revenge in a world ravaged by infection and moral decay.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2020-06-19",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/TLOU_P2_Box_Art_2.png/250px-TLOU_P2_Box_Art_2.png"
+  },
+  {
+    "title": "Assassin’s Creed Odyssey",
+    "description": "Play as a mercenary in ancient Greece, shaping history in a vast open-world RPG adventure.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2018-10-05",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/ACOdysseyCoverArt.png/250px-ACOdysseyCoverArt.png"
+  },
+  {
+    "title": "Far Cry 5",
+    "description": "Fight a doomsday cult in rural Montana in this chaotic open-world shooter.",
+    "genres": ["Action", "Shooter"],
+    "releaseDate": "2018-03-27",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Far_Cry_5_boxshot.jpg/250px-Far_Cry_5_boxshot.jpg"
+  },
+  {
+    "title": "Civilization VI",
+    "description": "Build an empire to stand the test of time in this grand turn-based strategy classic.",
+    "genres": ["Strategy", "Simulation"],
+    "releaseDate": "2016-10-21",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Civilization_VI_cover_art.jpg/250px-Civilization_VI_cover_art.jpg"
+  },
+  {
+    "title": "Total War: Warhammer III",
+    "description": "A massive strategy game combining real-time battles and empire management in the Warhammer universe.",
+    "genres": ["Strategy", "Fantasy"],
+    "releaseDate": "2022-02-17",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Total_War_Warhammer_3_cover_art.jpg/250px-Total_War_Warhammer_3_cover_art.jpg"
+  },
+  {
+    "title": "Monster Hunter: World",
+    "description": "Hunt giant monsters in a lush living ecosystem either solo or in online co-op.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2018-08-09",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Monster_Hunter_World_cover_art.jpg/250px-Monster_Hunter_World_cover_art.jpg"
+  },
+  {
+    "title": "Alan Wake Remastered",
+    "description": "A remaster of the psychological thriller about a writer trapped in his own nightmare.",
+    "genres": ["Horror", "Adventure"],
+    "releaseDate": "2021-10-05",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Alan_Wake_Game_Cover.jpg/250px-Alan_Wake_Game_Cover.jpg"
+  },
+  {
+    "title": "Persona 5 Royal",
+    "description": "Stylish turn-based JRPG following a group of rebellious students in Tokyo.",
+    "genres": ["RPG", "Adventure"],
+    "releaseDate": "2022-10-21",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b0/Persona_5_cover_art.jpg"
+  },
+  {
+    "title": "Final Fantasy VII Remake Intergrade",
+    "description": "A reimagining of the JRPG classic with stunning visuals and action-oriented combat.",
+    "genres": ["RPG", "Action"],
+    "releaseDate": "2022-06-17",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/FFVIIRemake.png/250px-FFVIIRemake.png"
+  },
+  {
+    "title": "Resident Evil 2 (Remake)",
+    "description": "Reimagining of the survival horror classic with stunning graphics and modern gameplay.",
+    "genres": ["Horror", "Action"],
+    "releaseDate": "2019-01-25",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Resident_Evil_2_Remake.jpg/250px-Resident_Evil_2_Remake.jpg"
+  },
+  {
+    "title": "Star Wars Jedi: Survivor",
+    "description": "Continue Cal Kestis’ journey in a cinematic action-adventure with improved combat and exploration.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2023-04-28",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Star_Wars_Jedi_Survivor.jpg/250px-Star_Wars_Jedi_Survivor.jpg"
+  },
+  {
+    "title": "Monster Hunter Rise",
+    "description": "Fast-paced monster hunting with new wirebug mobility and Palamute companions.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2022-01-12",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Monster_hunter_rise_cover.jpg/250px-Monster_hunter_rise_cover.jpg"
+  },
+  {
+    "title": "Nier: Automata",
+    "description": "A stylish action RPG blending philosophy, multiple endings, and PlatinumGames combat.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2017-03-17",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Nier_Automata_cover_art.jpg/250px-Nier_Automata_cover_art.jpg"
+  },
+  {
+    "title": "Metal Gear Solid V: The Phantom Pain",
+    "description": "Open-world stealth action where Big Boss leads Diamond Dogs in a tale of vengeance.",
+    "genres": ["Action", "Stealth"],
+    "releaseDate": "2015-09-01",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Metal_Gear_Solid_V_The_Phantom_Pain_cover.png/250px-Metal_Gear_Solid_V_The_Phantom_Pain_cover.png"
+  },
+  {
+    "title": "The Witcher 2: Assassins of Kings",
+    "description": "Geralt gets entangled in political intrigue and monster contracts in this mature RPG.",
+    "genres": ["RPG", "Adventure"],
+    "releaseDate": "2011-05-17",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Witcher_2_cover.jpg/250px-Witcher_2_cover.jpg"
+  },
+  {
+    "title": "BioShock Infinite",
+    "description": "A mind-bending shooter set in a floating city with unforgettable characters and story.",
+    "genres": ["Shooter", "Adventure"],
+    "releaseDate": "2013-03-26",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a3/Official_cover_art_for_Bioshock_Infinite.jpg"
+  },
+  {
+    "title": "Mass Effect Legendary Edition",
+    "description": "Remastered trilogy of the beloved sci-fi RPG series with improved visuals and QoL.",
+    "genres": ["RPG", "Adventure"],
+    "releaseDate": "2021-05-14",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Mass_Effect_Legendary_Edition.jpeg/250px-Mass_Effect_Legendary_Edition.jpeg"
+  },
+  {
+    "title": "Dragon Age: Inquisition",
+    "description": "Lead the Inquisition to save Thedas in this expansive fantasy RPG.",
+    "genres": ["RPG", "Adventure"],
+    "releaseDate": "2014-11-18",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Dragon_Age_Inquisition_BoxArt.jpg/250px-Dragon_Age_Inquisition_BoxArt.jpg"
+  },
+  {
+    "title": "Papers, Please",
+    "description": "Play as an immigration inspector in a dystopian country; decide who gets in.",
+    "genres": ["Simulation", "Indie"],
+    "releaseDate": "2013-08-08",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Papers_Please_-_Title_Logo.png/250px-Papers_Please_-_Title_Logo.png"
+  },
+  {
+    "title": "Disco Elysium: The Final Cut",
+    "description": "A groundbreaking narrative RPG about a detective with a unique skill system and choices.",
+    "genres": ["RPG", "Adventure"],
+    "releaseDate": "2019-10-15",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Disco_Elysium_Poster.jpeg/250px-Disco_Elysium_Poster.jpeg"
+  },
+  {
+    "title": "The Outer Worlds",
+    "description": "A quirky sci-fi RPG where your choices carry serious consequences across space colonies.",
+    "genres": ["RPG", "Adventure"],
+    "releaseDate": "2019-10-25",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/The_Outer_Worlds_cover_art.png/250px-The_Outer_Worlds_cover_art.png"
+  },
+  {
+    "title": "Kingdom Come: Deliverance",
+    "description": "A realistic, historically grounded RPG set in medieval Bohemia.",
+    "genres": ["RPG", "Adventure"],
+    "releaseDate": "2018-02-13",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Kingdom_Come_Deliverance.jpg/250px-Kingdom_Come_Deliverance.jpg"
+  },
+  {
+    "title": "Mafia: Definitive Edition",
+    "description": "A faithful remake of the 2002 classic, telling Tommy Angelo’s rise in the mob.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2020-09-25",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Mafia_Definitive_Edition.jpg/250px-Mafia_Definitive_Edition.jpg"
+  },
+  {
+    "title": "Marvel’s Spider-Man 2",
+    "description": "Play as Peter Parker and Miles Morales in this PS5-exclusive sequel with dual heroes and Venom.",
+    "genres": ["Action", "Adventure"],
+    "releaseDate": "2023-10-20",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/SpiderMan2PS5BoxArt.jpeg/250px-SpiderMan2PS5BoxArt.jpeg"
+  },
+  {
+    "title": "Armored Core VI: Fires of Rubicon",
+    "description": "FromSoftware returns with high-speed mecha combat, intricate customization, and challenging missions.",
+    "genres": ["Action", "Mecha"],
+    "releaseDate": "2023-08-25",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Armored_Core_VI_Fires_of_Rubicon_cover_art.jpg/250px-Armored_Core_VI_Fires_of_Rubicon_cover_art.jpg"
+  },
+  {
+    "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "description": "Open-world survival shooter set in the radioactive Chernobyl Exclusion Zone.",
+    "genres": ["Shooter", "Survival"],
+    "releaseDate": "2024-09-05",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/STALKER_2_cover_art.jpg/250px-STALKER_2_cover_art.jpg"
+  },
+  {
+    "title": "Dragon’s Dogma II",
+    "description": "Sequel to Capcom’s cult-favorite RPG featuring an expansive world, pawn system, and dynamic combat.",
+    "genres": ["RPG", "Adventure"],
+    "releaseDate": "2024-03-22",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Dragon%27s_Dogma_2_cover_art.jpg/250px-Dragon%27s_Dogma_2_cover_art.jpg"
+  },
+  {
+    "title": "Black Myth: Wukong",
+    "description": "A stunning Souls-like based on the legend of the Monkey King, featuring martial arts combat.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2024-08-20",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Black_Myth_Wukong_cover_art.jpg/250px-Black_Myth_Wukong_cover_art.jpg"
+  },
+  {
+    "title": "Silent Hill 2 (Remake)",
+    "description": "Remake of the psychological horror masterpiece rebuilt in Unreal Engine 5.",
+    "genres": ["Horror", "Adventure"],
+    "releaseDate": "2024-10-08",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Silent_Hill_2_remake_cover.jpg/250px-Silent_Hill_2_remake_cover.jpg"
+  },
+  {
+    "title": "Metaphor: ReFantazio",
+    "description": "A fantasy RPG from the creators of Persona, blending social simulation with tactical turn-based combat.",
+    "genres": ["RPG", "Fantasy"],
+    "releaseDate": "2024-10-11",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Metaphor_Refantazio_Cover_Art.png/250px-Metaphor_Refantazio_Cover_Art.png"
+  },
+  {
+    "title": "Hades II",
+    "description": "Sequel to the award-winning roguelike, starring Melinoë in a battle against the Titan of Time.",
+    "genres": ["Action", "Roguelike"],
+    "releaseDate": "2024-12-31",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Hades_2_cover_art.jpeg/250px-Hades_2_cover_art.jpeg"
+  },
+  {
+    "title": "Sifu",
+    "description": "Martial arts action game with a unique aging mechanic as you seek revenge through stylish combat.",
+    "genres": ["Action", "Fighting"],
+    "releaseDate": "2022-02-08",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Sifu_cover_art.jpg/250px-Sifu_cover_art.jpg"
+  },
+  {
+    "title": "Atomic Heart",
+    "description": "First-person shooter set in an alternate Soviet utopia gone mad, full of killer robots and chaos.",
+    "genres": ["Action", "Shooter"],
+    "releaseDate": "2023-02-21",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Atomic_Heart_cover.jpg/250px-Atomic_Heart_cover.jpg"
+  },
+  {
+    "title": "Lords of the Fallen",
+    "description": "A dark fantasy action RPG reboot with seamless world design and brutal combat.",
+    "genres": ["Action", "RPG"],
+    "releaseDate": "2023-10-13",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Lords_of_the_Fallen_2023_cover_art.jpg/250px-Lords_of_the_Fallen_2023_cover_art.jpg"
+  },
+  {
+    "title": "Manor Lords",
+    "description": "A medieval city-building and strategy game focused on organic growth and tactical battles.",
+    "genres": ["Strategy", "Simulation"],
+    "releaseDate": "2024-04-26",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Manor_Lords_box_art.jpg/250px-Manor_Lords_box_art.jpg"
   }
 ]

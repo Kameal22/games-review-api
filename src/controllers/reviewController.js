@@ -65,6 +65,18 @@ export async function listUserReviews(req, res, next) {
   }
 }
 
+export async function listMyReviews(req, res, next) {
+  try {
+    const userId = req.user?.sub;
+    const reviews = await Review.find({ user: userId })
+      .sort({ createdAt: -1 })
+      .populate("game", "title slug coverImageUrl genres releaseDate rating");
+    res.json(reviews);
+  } catch (err) {
+    next(err);
+  }
+}
+
 export async function createReview(req, res, next) {
   try {
     const userId = req.user?.sub;

@@ -17,7 +17,7 @@ const loginSchema = z.object({
 function signToken(user) {
   const secret = process.env.JWT_SECRET || "dev-insecure-secret";
   return jwt.sign({ sub: user._id.toString(), role: user.role }, secret, {
-    expiresIn: "7d",
+    expiresIn: "12h",
   });
 }
 

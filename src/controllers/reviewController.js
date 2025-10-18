@@ -205,5 +205,18 @@ export async function updateReview(req, res, next) {
   }
 }
 
+export async function fetchAndSortReviewsByHighestScore(req, res, next) {
+  try {
+    const reviews = await Review.find({})
+      .sort({ finalScore: -1 })
+      .populate("game", "title slug coverImageUrl")
+      .populate("user", "displayName");
+    if (!reviews) return res.status(404).json({ message: "No reviews found" });
+    res.json(reviews);
+  } catch (err) {
+    next(err);
+  }
+}
+
 // (Other handlers: deleteReview, listMyReviews, listGameReviews) can stay as-is.
 // They’ll now include the new fields automatically in responses.

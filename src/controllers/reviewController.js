@@ -205,7 +205,7 @@ export async function updateReview(req, res, next) {
   }
 }
 
-export async function fetchAndSortReviewsByHighestScore(req, res, next) {
+export async function fetchAndSortByHighestScore(req, res, next) {
   try {
     const reviews = await Review.find({})
       .sort({ finalScore: -1 })

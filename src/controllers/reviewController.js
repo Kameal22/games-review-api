@@ -144,6 +144,25 @@ export async function createReview(req, res, next) {
   }
 }
 
+export async function checkReviewExists(req, res, next) {
+  try {
+    const userId = req.user?.sub;
+    const { gameId } = req.params;
+    if (!mongoose.Types.ObjectId.isValid(gameId)) {
+      return res.status(400).json({ message: "Invalid gameId" });
+    }
+    const review = await Review.findOne({ user: userId, game: gameId });
+    if (review) {
+      return res
+        .status(200)
+        .json({ message: "You already reviewed this game" });
+    }
+    return res.status(404).json({ message: "Review not found" });
+  } catch (err) {
+    next(err);
+  }
+}
+
 const updateSchema = z.object({
   text: z.string().trim().max(5000).optional(),
   gameplay: score.optional(),

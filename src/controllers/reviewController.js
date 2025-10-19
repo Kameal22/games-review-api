@@ -212,7 +212,7 @@ export async function fetchAndSortTenByHighestScore(req, res, next) {
     })
       .sort({ finalScore: -1 })
       .limit(10)
-      .populate("game", "title slug coverImageUrl")
+      .populate("game", "title slug coverImageUrl genres releaseDate") // select game fields you need
       .populate("user", "displayName");
     if (!reviews || reviews.length === 0)
       return res.status(404).json({ message: "No reviews found" });

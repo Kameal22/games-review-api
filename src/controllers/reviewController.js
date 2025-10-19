@@ -205,10 +205,11 @@ export async function updateReview(req, res, next) {
   }
 }
 
-export async function fetchAndSortByHighestScore(req, res, next) {
+export async function fetchAndSortTenByHighestScore(req, res, next) {
   try {
     const reviews = await Review.find({})
       .sort({ finalScore: -1 })
+      .limit(10)
       .populate("game", "title slug coverImageUrl")
       .populate("user", "displayName");
     if (!reviews) return res.status(404).json({ message: "No reviews found" });

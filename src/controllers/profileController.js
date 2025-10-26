@@ -120,3 +120,37 @@ export async function getUserProfile(req, res, next) {
     next(err);
   }
 }
+
+export async function updateUserBio(req, res, next) {
+  try {
+    const { bio } = req.body;
+    const userId = req.user?.sub;
+
+    // Check authorization
+    if (!userId) {
+      return res.status(401).json({ message: "Unauthorized" });
+    }
+
+    // Update user
+    const user = await User.findByIdAndUpdate(
+      userId,
+      { bio }, // Note: using 'bio' to match your User model
+      { new: true, runValidators: true }
+    );
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    res.json({
+      message: "Bio updated successfully",
+      user: {
+        _id: user._id,
+        displayName: user.displayName,
+        bio: user.bio,
+      },
+    });
+  } catch (error) {
+    next(error);
+  }
+}

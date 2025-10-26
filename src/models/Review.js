@@ -22,8 +22,6 @@ const reviewSchema = new mongoose.Schema(
     story: scoreField,
     soundtrack: scoreField,
     graphics: scoreField,
-    optimization: scoreField,
-    worldDesign: scoreField,
 
     // Overall
     finalScore: { type: Number, min: 0, max: 10, required: false },

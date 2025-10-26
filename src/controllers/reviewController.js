@@ -207,15 +207,35 @@ export async function updateReview(req, res, next) {
 
 export async function fetchAndSortTenByHighestScore(req, res, next) {
   try {
-    const reviews = await Review.find({
-      finalScore: { $exists: true, $ne: null },
-    })
-      .sort({ finalScore: -1 })
+    const { category } = req.query;
+
+    // Define valid categories and their corresponding fields
+    const validCategories = {
+      gameplay: "gameplay",
+      story: "story",
+      soundtrack: "soundtrack",
+      graphics: "graphics",
+      finalScore: "finalScore",
+    };
+
+    // Determine which field to sort by
+    let sortField = "finalScore"; // default
+    let queryFilter = { finalScore: { $exists: true, $ne: null } };
+
+    if (category && validCategories[category]) {
+      sortField = validCategories[category];
+      queryFilter = { [sortField]: { $exists: true, $ne: null } };
+    }
+
+    const reviews = await Review.find(queryFilter)
+      .sort({ [sortField]: -1 })
       .limit(10)
-      .populate("game", "title slug coverImageUrl genres releaseDate") // select game fields you need
+      .populate("game", "title slug coverImageUrl genres releaseDate")
       .populate("user", "displayName");
+
     if (!reviews || reviews.length === 0)
       return res.status(404).json({ message: "No reviews found" });
+
     res.json(reviews);
   } catch (err) {
     next(err);

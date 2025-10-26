@@ -40,6 +40,7 @@ export async function register(req, res, next) {
       email,
       passwordHash,
       displayName: displayName || email.split("@")[0],
+      registrationIP: req.registrationIP, // Store IP for abuse prevention
     });
 
     const token = signToken(user);

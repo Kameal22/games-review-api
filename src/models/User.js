@@ -12,6 +12,7 @@ const userSchema = new mongoose.Schema(
     },
     passwordHash: { type: String, required: true },
     displayName: { type: String, trim: true },
+    registrationIP: { type: String, index: true }, // Track IP for abuse prevention
   },
   { timestamps: true }
 );

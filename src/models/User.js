@@ -12,6 +12,7 @@ const userSchema = new mongoose.Schema(
     },
     passwordHash: { type: String, required: true },
     displayName: { type: String, trim: true },
+    bio: { type: String, trim: true },
   },
   { timestamps: true }
 );

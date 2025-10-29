@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 import { z } from "zod";
 import Review from "../models/Review.js";
+import Follow from "../models/Follow.js";
+import Notification from "../models/Notification.js";
 
 // Reusable score validator (0–10)
 const score = z.number().min(0).max(10);
@@ -132,6 +134,37 @@ export async function createReview(req, res, next) {
       { path: "game", select: "title slug coverImageUrl" },
       { path: "user", select: "displayName" },
     ]);
+
+    // Create notifications for followers (don't block review creation if this fails)
+    try {
+      // Find all users who follow the review author
+      const followers = await Follow.find({ following: userId })
+        .select("follower")
+        .lean();
+
+      if (followers.length > 0) {
+        const gameTitle = review.game?.title || "a game";
+        const authorName = review.user?.displayName || "Someone";
+
+        // Create notifications for each follower
+        const notifications = followers.map((follow) => ({
+          user: follow.follower,
+          actor: userId,
+          review: review._id,
+          type: "review_created",
+          message: `${authorName} wrote a review for ${gameTitle}`,
+          read: false,
+        }));
+
+        // Bulk insert notifications
+        if (notifications.length > 0) {
+          await Notification.insertMany(notifications);
+        }
+      }
+    } catch (notificationError) {
+      // Log error but don't fail the review creation
+      console.error("Failed to create notifications:", notificationError);
+    }
 
     res.status(201).json(review);
   } catch (err) {

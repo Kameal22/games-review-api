@@ -621,5 +621,25 @@
     "genres": ["Strategy", "Simulation"],
     "releaseDate": "2024-04-26",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Manor_Lords_box_art.jpg/250px-Manor_Lords_box_art.jpg"
+  },
+  {
+    "title": "Halo: Campaign Evolved",
+    "developer": "Halo Studios",
+    "description": "A remake of the original Halo campaign including new content such as prequel missions, new cinematics, weapons from later games, and new voice overs.",
+    "genres": [
+      "First-Person Shooter"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/0/1992/3815487-0315416261-apps.33604.14018605831064250.443dafeb-7b4f-43fb-9452-0232c2810ba0.ca64edbb-f443-42b5-8863-346fe5e0eb60.jpg"
+  },
+  {
+    "title": "Megabonk",
+    "developer": "Vedinad",
+    "description": "A 3D survival roguelike where players must fight through hordes of enemies and bosses in randomly generated maps.",
+    "genres": [
+      "Action"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/23/230756/3814472-83913200ee37a50f3922fabbc9826991.jpg"
   }
 ]

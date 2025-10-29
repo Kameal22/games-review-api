@@ -8,6 +8,8 @@ import Game from "./routes/gameRoutes.js";
 import Profile from "./routes/profileRoutes.js";
 import Review from "./routes/reviewRoutes.js";
 import Watchlist from "./routes/watchlistRoutes.js";
+import Follow from "./routes/followRoutes.js";
+import Notification from "./routes/notificationRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorHandler.js";
 
 const app = express();
@@ -31,6 +33,8 @@ app.use("/api/game", Game);
 app.use("/api/profile", Profile);
 app.use("/api/reviews", Review);
 app.use("/api/watchlist", Watchlist);
+app.use("/api/follow", Follow);
+app.use("/api/notifications", Notification);
 // 404 + error handler
 app.use(notFound);
 app.use(errorHandler);

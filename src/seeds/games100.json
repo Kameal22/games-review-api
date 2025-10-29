@@ -1,0 +1,955 @@
+[
+  {
+    "title": "Dance Around",
+    "developer": "Bemani",
+    "description": "Stylized as \"DANCE aROUND\", this Bemani-developed dancing rhythm arcade game uses camera sensors to detect poses and movements.",
+    "genres": [
+      "Music/Rhythm"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Halo: Campaign Evolved",
+    "developer": "Halo Studios",
+    "description": "A remake of the original Halo campaign including new content such as prequel missions, new cinematics, weapons from later games, and new voice overs.",
+    "genres": [
+      "First-Person Shooter"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/0/1992/3815487-0315416261-apps.33604.14018605831064250.443dafeb-7b4f-43fb-9452-0232c2810ba0.ca64edbb-f443-42b5-8863-346fe5e0eb60.jpg"
+  },
+  {
+    "title": "Effacer: Hangman from the 25th Century",
+    "developer": "CapDisc",
+    "description": "A unique and comedic sci-fi take on the classic word game Hangman, where you deliver justice to a variety of aliens that committed literacy crimes.",
+    "genres": [
+      "Puzzle"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Text Tiles",
+    "developer": "CapDisc",
+    "description": "A CD-i puzzle game where you place random letters on a 12x12 board to form words.",
+    "genres": [
+      "Puzzle"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Battleship",
+    "developer": "CapDisc",
+    "description": "A CD-i adaptation of the classic Milton Bradley board game of the same name, featuring FMV video clips and three different firing modes.",
+    "genres": [
+      "Strategy",
+      "Trivia/Board Game"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Axis and Allies",
+    "developer": "CapDisc",
+    "description": "The first video game adaptation of the Milton Bradley World War II-themed strategy board game Axis & Allies.",
+    "genres": [
+      "Strategy"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "NFL Football Trivia Challenge",
+    "developer": "CapDisc",
+    "description": "Play a match of American football, but instead of making plays, you answer trivia questions about the NFL.",
+    "genres": [
+      "Trivia/Board Game",
+      "Football"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Megabonk",
+    "developer": "Vedinad",
+    "description": "A 3D survival roguelike where players must fight through hordes of enemies and bosses in randomly generated maps.",
+    "genres": [
+      "Action"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/23/230756/3814472-83913200ee37a50f3922fabbc9826991.jpg"
+  },
+  {
+    "title": "Galactic Tycoons",
+    "developer": null,
+    "description": "Galactic Tycoons is a free multiplayer browser game where players command their own industrial empire. Build bases across the galaxy, master complex production chains, and compete in a persistent, player-driven economy.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/242/2421856/3813735-34557.jpg"
+  },
+  {
+    "title": "Winter Resort Simulator 2",
+    "developer": "HR Innoways GmbH",
+    "description": "Winter Resort Simulator 2 - is a realistic and authentic simulation of a ski resort with all its exciting technical facilities and vehicles.",
+    "genres": [
+      "Snowboarding/Skiing"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/151/1511438/3813897-5606167280-winte.jpg"
+  },
+  {
+    "title": "Warrior's Wisdom",
+    "developer": null,
+    "description": "Feel the Warrior deep within! A game by Downtown Freezy",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/45/455782/3813255-tprwef.jpg"
+  },
+  {
+    "title": "Super Granny Winter Wonderland",
+    "developer": "Sandlot Games",
+    "description": null,
+    "genres": [
+      "Action",
+      "Puzzle",
+      "Platformer"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "I'm on Observation Duty 7",
+    "developer": null,
+    "description": "Indie horror game. Monitor surveillance camera footage and spot anomalies in the monitored rooms. ",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/40/402214/3811573-i%27monobservationduty7trailer.png"
+  },
+  {
+    "title": "I'm on Observation Duty 6",
+    "developer": null,
+    "description": "As an employee of a mysterious organization the player must monitor live surveillance camera footage and spot anomalies. Spot-the-difference type of game with horror theme.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/40/402214/3811571-p%C3%A4%C3%A4tunnistekuvai%27monobservationduty6indiehorrorgame.png"
+  },
+  {
+    "title": "Chrono Commander",
+    "developer": null,
+    "description": "Chrono Commander is an real-time strategy game with time-travel mechanics.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/28/281080/3811356-steam_eventheader_template.png"
+  },
+  {
+    "title": "The Headliners",
+    "developer": null,
+    "description": "A co-op horror game where up to eight players attempt to photograph a city overrun by deadly monsters.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "8-Bit Adventures 2",
+    "developer": null,
+    "description": "Pixel retro turn-based RPG that pays homage to the golden age of JRPGs.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/80/806352/3809830-4339217850-apps.64115.14359966414847018.038f6770-9b71-48a3-ae02-27362b979f28.b0db8ccf-5960-439c-899a-f28df1fc225d.jpg"
+  },
+  {
+    "title": "Pinky Dinky Doo: Eat It or Wear It",
+    "developer": null,
+    "description": "A browser game released in April 2006.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/239/2391650/3809803-pinky-dinky-doo-eat-it-or-wear-it_logo.jpg"
+  },
+  {
+    "title": "Ball x Pit",
+    "developer": "Kenny Sun",
+    "description": "Ball x Pit (pronounced \"Ball Pit\") is a brick-breaking roguelite with base building elements developed by Kenny Sun.",
+    "genres": [
+      "Action"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/0/1992/3812411-9825297694-libra.jpg"
+  },
+  {
+    "title": "EverQuest II: Rage of Cthurath",
+    "developer": "Darkpaw Games",
+    "description": "Rage of Cthurath is the twenty-second expansion for EverQuest II.",
+    "genres": [
+      "MMORPG"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/0/1992/3811654-32.png"
+  },
+  {
+    "title": "Avernum 4: Greed and Glory",
+    "developer": "Spiderweb Software",
+    "description": "A remake of the fourth installment of the Avernum series of isometric fantasy RPGs.",
+    "genres": [
+      "Strategy",
+      "Role-Playing"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "PAW Patrol Rescue Wheels: Championship",
+    "developer": "3DClouds",
+    "description": " ",
+    "genres": [],
+    "releaseDate": "2025-10-10",
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Dora: Rainforest Rescue",
+    "developer": "Artax Games",
+    "description": "A game based on the children's TV series Dora, itself a CGI reboot of Dora the Explorer.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "The Elf on the Shelf: Christmas Heroes",
+    "developer": "Casual Brothers Games",
+    "description": "A successor to the 2.5D platformer The Grinch: Christmas Adventures, now based on the Scout Elf known as The Elf on the Shelf.",
+    "genres": [
+      "Platformer"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "NBA Bounce",
+    "developer": "Unfinished Pixel",
+    "description": "A three-on-three basketball game in the style of the over-the-top NBA Jam series. Now with mascots!",
+    "genres": [
+      "Basketball"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Barbie Horse Trails",
+    "developer": "PHL Collective",
+    "description": "A successor to the Barbie Horse Adventures series, with Barbie as a park ranger.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "DreamWorks Gabby's Dollhouse; Ready to Party",
+    "developer": "Infinigon",
+    "description": "Based on the CGI children's television series Gabby's Dollhouse.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Bratz: Rhythm & Style",
+    "developer": "Recotechnology S.L.",
+    "description": " ",
+    "genres": [
+      "Music/Rhythm"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Kaidō Battle",
+    "developer": null,
+    "description": null,
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Snoopy & The Great Mystery Club",
+    "developer": "Cradle Games",
+    "description": "Snoopy and the Peanuts characters solve puzzles in order to uncover secrets hidden behind a multitude of mysteries.",
+    "genres": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/20/201266/3810135-snoopy-and-the-great-mystery-club-jkp5n.jpg"
+  },
+  {
+    "title": "G-Mode Archives 49: Gregory Horror Show",
+    "developer": "G-mode, Inc.",
+    "description": "A comedic top-down survival-horror game that was originally for feature phones. Based on the Japanese 3DCG mini-cartoon Gregory Horror Show.",
+    "genres": [
+      "Adventure"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Gregory Horror Show: Lost Qualia",
+    "developer": "Unframe",
+    "description": "A Japan-only mobile free-to-play turn-based roguelike RPG based on the 2000's horror-comedy CGI mini-cartoon Gregory Horror Show.",
+    "genres": [
+      "Role-Playing"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Gregory Horror Show: Soul of Roses",
+    "developer": "Unframe",
+    "description": "A 2D rogue-lite platformer based on the early-2000's Japanese horror-comedy mini-cartoon Gregory Horror Show.",
+    "genres": [
+      "Platformer"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Dissidia Duellum Final Fantasy",
+    "developer": "NHN PlayArt",
+    "description": "A Final Fantasy fighting game for mobile devices.",
+    "genres": [
+      "Action"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/0/1992/3811346-screenshot2025-10-15at5.27.39%E2%80%AFam.png"
+  },
+  {
+    "title": "Shrek Kart",
+    "developer": null,
+    "description": "A mobile kart racer based on the CGI film series Shrek.",
+    "genres": [
+      "Driving/Racing"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Shrek: Ogres & Dronkeys",
+    "developer": "WayForward Technologies",
+    "description": "Raise and train your own baby ogre or baby dronkey (a donkey/dragon mix) in this virtual pet sim based on the Shrek series of CGI films.",
+    "genres": [
+      "Simulation"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Emergency Ambulance Simulator 2014",
+    "developer": "Z-Software GmbH",
+    "description": "Emergency Simulation game from Germany",
+    "genres": [
+      "Simulation"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/151/1511438/3809698-0305828497-newsz.jpg"
+  },
+  {
+    "title": "Papa's Taco Mia!",
+    "developer": null,
+    "description": null,
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Digging Together",
+    "developer": null,
+    "description": "Co-op simulation game by Suber Game Studio.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/39/396953/3808237-header.jpg"
+  },
+  {
+    "title": "Cabernet",
+    "developer": null,
+    "description": "An indie game from Akupara games.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/15/158386/3807423-header.jpg"
+  },
+  {
+    "title": "Chicken Run: Eggstraction",
+    "developer": "Aardman Animations",
+    "description": "A top-down stealth-action game set after the events of the 2023 CGI comedy film Chicken Run: Dawn of the Nugget.",
+    "genres": [
+      "Action-Adventure"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Avalon",
+    "developer": null,
+    "description": "Created by big names like Jeffrey Butler (Everquest, Vanguard: Saga of Heroes) and Zack Karlsson (Over 800+ titles) they are working on yet another ground breaking game that will change the playing field again. An MMORPG built on player generated content. You are trapped in a simulation and the only way to escape is to create, build, progress, through levels that include high fantasy, cyberpunk and more.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/240/2402011/3806896-avalonboxart.jpg"
+  },
+  {
+    "title": "Model Empolyee",
+    "developer": null,
+    "description": "Model Employee is a corporate horror visual novel where players take control of  the latest individual amongst millions to start working in one of Tethys' online shopping labyrinthine warehouses.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/240/2405563/3806884-vm8nbb.jpg"
+  },
+  {
+    "title": "Cat Gladiator",
+    "developer": null,
+    "description": "Cat Gladiator is a 2D Monster Hunter style action game with online co-op.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Considerable Grandfather",
+    "developer": null,
+    "description": null,
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "PointWorks",
+    "developer": "username29151",
+    "description": "Jump to Improvement.",
+    "genres": [
+      "Puzzle",
+      "Platformer"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/240/2405036/3806499-newiconnew.png"
+  },
+  {
+    "title": "Duck Side of the Moon",
+    "developer": null,
+    "description": "Waddle and fly as a duck in space! Explore every corner of the galaxy and find curious creatures and materials along the way. Craft gadgets, upgrade the spaceship, and get cozy in this relaxing adventure.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/240/2403820/3805974-headerandlibraryheadercapsule.png"
+  },
+  {
+    "title": "Pickle Panic",
+    "developer": null,
+    "description": "Steer the jar with pickles inside. Roll through trap-filled courses! A 1–4 player physics-based co-op chaos: clear obstacles without shattering the jar, return to checkpoints, and try wild tactics with friends.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/240/2403632/3805886-ads%C4%B1ztasar%C4%B1m.jpg"
+  },
+  {
+    "title": "Toll Booth Simulator: Schedule of Chaos",
+    "developer": null,
+    "description": "Management and simulation game by SixRiz and PlayWay S.A.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/39/396953/3805062-header.jpg"
+  },
+  {
+    "title": "Revenge On Gold Diggers",
+    "developer": null,
+    "description": "Revenge On Gold Diggers is a Full-Motion Video game developed and published by 前方工作室, available on PC (Windows and macOS).",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/240/2400210/3804190-%E5%BA%93_%C2%A0%E5%BA%93%E5%AE%A3%E4%BC%A0%E5%9B%BE.png"
+  },
+  {
+    "title": "Road Trip to the End of the World",
+    "developer": null,
+    "description": " Road Trip to the End of the World ",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "EverQuest: Shattering of Ro",
+    "developer": "Darkpaw Games",
+    "description": "Shattering of Ro is the thirty-second expansion for EverQuest. Adventurers are thrust into battle with the gods once again when it is revealed that Druzzil Ro, the goddess of magic, has been murdered.",
+    "genres": [
+      "MMORPG"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/0/1992/3808869-sneakpeekintoshatteringofro-youtube-0-0-30.jpg"
+  },
+  {
+    "title": "Taikyoku Mahjong: Net de Ron!",
+    "developer": "Arika Co., Ltd.",
+    "description": "A PS2 riichi mahjong game by Arika, and the system's first online-supported mahjong game.",
+    "genres": [
+      "Trivia/Board Game"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "This is a cry for",
+    "developer": null,
+    "description": null,
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Kakinoki Shogi IV",
+    "developer": null,
+    "description": "Despite the name, it is actually the third console installment of the computer shogi series from Yoshikazu Kakinoki.",
+    "genres": [
+      "Strategy",
+      "Trivia/Board Game"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Kakinoki Shogi II",
+    "developer": null,
+    "description": "The second console installment of the '90s shogi series from Yoshikazu Kakinoki.",
+    "genres": [
+      "Trivia/Board Game"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Stepping 3: Superior",
+    "developer": "Jaleco Ltd.",
+    "description": "The third and final arcade installment of Jaleco's dance rhythm series Stepping Stage, with a revamped track list and a variety of game modes and options.",
+    "genres": [
+      "Music/Rhythm"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Stepping Stage 2: Supreme",
+    "developer": "Jaleco Ltd.",
+    "description": "The second installment of Jaleco's dance rhythm arcade game series, with a variety of new songs, a Challenge mode, and a system for keeping combos between songs.",
+    "genres": [
+      "Music/Rhythm"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Stepping Stage",
+    "developer": "Jaleco Ltd.",
+    "description": "The first in Jaleco's dance rhythm game series and answer to BEMANI's Dance Dance Revolution series, featuring a six-pad controller, a three-monitor display (a tall one for each player and a central one showing a video), and cover versions of various Western pop songs.",
+    "genres": [
+      "Music/Rhythm"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Many Roads to Murder",
+    "developer": "VidMax",
+    "description": "The last of two games in the \"MysteryDisc\" series of murder-mystery games that can run on any LaserDisc player.",
+    "genres": [
+      "Strategy"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Murder, Anyone?",
+    "developer": "VidMax",
+    "description": "The first of two \"MysteryDisc\" games that can run on any LaserDisc player, combining live-action murder-mystery FMV with the LaserDisc's frame-skipping functionality for a rudimentary menu interface and branching paths.",
+    "genres": [
+      "Strategy"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Strike Mission",
+    "developer": "Kiya Overseas Industry Co., Ltd.",
+    "description": "A Japan-only LaserDisc game for the MSX where you pilot a fighter jet.",
+    "genres": [
+      "Strategy",
+      "Flight Simulator"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Rolling Blaster",
+    "developer": "Techno Quest",
+    "description": "A Japan-only shoot-'em-up game for the MSX, with the entire game and FMV background on LaserDisc via an attached LaserDisc player.",
+    "genres": [
+      "Shoot 'Em Up"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Ahamkala",
+    "developer": "Nigoro",
+    "description": "Nigoro, the developers of La-Mulana, announced the development of Ahamkala in January 2022.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/0/1992/3806874-2144441383-Ahamk.jpg"
+  },
+  {
+    "title": "Veritus",
+    "developer": "Colorgrave Games",
+    "description": "Sequel to Prodigal from Colorgrave",
+    "genres": [
+      "Action-Adventure"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/18/187788/3806825-0085299137-heade.jpg"
+  },
+  {
+    "title": "Card Sharks",
+    "developer": "Accolade, Inc.",
+    "description": "Play poker, blackjack, and hearts against some talkative characters, including world leaders at the time, in this card game for the Commodore 64.",
+    "genres": [
+      "Card Game",
+      "Gambling"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "CloverPit",
+    "developer": "Panik Arcade",
+    "description": "A rogue-lite slot machine nightmare. Let's go gambling!",
+    "genres": [
+      "Gambling"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "October Panic",
+    "developer": "Neckbolt",
+    "description": "A retro style 2D action/platforming game with a Halloween theme.",
+    "genres": [
+      "Action",
+      "Platformer"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/10/103881/3806515-library_600x900_2x.jpg"
+  },
+  {
+    "title": "Slender Threads",
+    "developer": "Blyts",
+    "description": "In this paranormal point-and-click adventure, a traveling salesman races to stop a string of horrific deaths in a quiet seaside town—before he’s next.",
+    "genres": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/24/240391/3806420-mv5byjy3ywm1mwmtzgi3zi00ogqxlwi4mjitymi2zgvmmmyxy2m1xkeyxkfqcgc%40._v1_fmjpg_ux1000_.jpg"
+  },
+  {
+    "title": "Öoo",
+    "developer": "NamaTakahashi",
+    "description": "A puzzle game about a bomb caterpillar's explosive adventure.",
+    "genres": [
+      "Puzzle",
+      "Platformer"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110112/3806059-ooo_header.jpg"
+  },
+  {
+    "title": "Go to the Head of the Class",
+    "developer": "Pedersen Systems, Inc. (PSI)",
+    "description": "A computer adaptation of the school-themed board game of the same name, where you progress through different classes while answering trivia questions.",
+    "genres": [
+      "Trivia/Board Game"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Payday",
+    "developer": "Creative Software Designs, inc.",
+    "description": "An adaptation of the Parker Brothers money management board game of the same name.",
+    "genres": [
+      "Trivia/Board Game"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Stained Glass",
+    "developer": null,
+    "description": "A shareware puzzle game combining peg solitaire with color theory. Later became the basis for the puzzle game Tesserae.",
+    "genres": [
+      "Puzzle"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Sorcerer's Cave",
+    "developer": "Skookum Software",
+    "description": "A shareware fantasy RPG based on the 1978 card-based board game The Sorcerer's Cave, developed by the board game's author.",
+    "genres": [
+      "Role-Playing"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Street Mahjong Trance: MAZIN 2",
+    "developer": "Sunsoft",
+    "description": "A sequel to the PS1 riichi mahjong game Mahjong Station MAZIN, where now the mahjong god challenges not warriors from throughout history, but a bunch of cool kids.",
+    "genres": [
+      "Trivia/Board Game"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "I Will: The Story of London",
+    "developer": "CRC Research Institute",
+    "description": "A LaserActive game that is part travelogue, part detective story, as you travel around London by bus and watch live-action footage while scanning for clues.",
+    "genres": [
+      "Adventure"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Jump Space",
+    "developer": "Keepsake Games",
+    "description": "Jump Space (formerly Jump Ship) is a sci-fi space co-op first-person shooter in which you play as a member of a spaceship crew.",
+    "genres": [
+      "Action",
+      "Shooter",
+      "First-Person Shooter"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/30/308862/3803904-s1440-w1024-h1440-c-k-c0x00ffffff-no-nd-rj.jpg"
+  },
+  {
+    "title": "Sword of Rule",
+    "developer": "Rawa Games",
+    "description": "Sword of Rule (سيف الحكم) is a 2D real-time strategy game released in 2025 for iOS in the Gulf region. Players choose from four tribes, expand villages, train armies, and compete to build the World Wonder to level 100 for victory.\r\n",
+    "genres": [
+      "Real-Time Strategy"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/239/2399586/3803885-appicon.png"
+  },
+  {
+    "title": "Nickelodeon Splat Pack",
+    "developer": null,
+    "description": "A compilation that includes Rocko's Modern Life: Spunky's Dangerous Day for SNES, Nickelodeon GUTS the Video Game for SNES, and AAAHH!!!!! Real Monsters the Video Game for SNES and Genesis.",
+    "genres": [
+      "Compilation"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Ghost Sync",
+    "developer": "Exe-Create",
+    "description": "Turn based RPG featuring guild quests, equipment upgrades, and a quirky story about a wizard and a dog possessed by the soul of a mysterious man.",
+    "genres": [
+      "Role-Playing"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/34/345719/3802196-ghost.jpg"
+  },
+  {
+    "title": "Gale of Windoria",
+    "developer": "Hit-Point Co.",
+    "description": "Turn based RPG featuring dungeon crawling in an expansive fantasy world while on a quest to save a childhood friend.",
+    "genres": [
+      "Role-Playing"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/34/345719/3802194-windhero.jpg"
+  },
+  {
+    "title": "Orion Haste",
+    "developer": "Ratalaika Games S.L.",
+    "description": "Contra-like run & gun",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/18/187788/3803777-3939211577-d1b706d5dd07231819d9972dad6ad771014ba865db15878baaab17283d65e6e4.jpg"
+  },
+  {
+    "title": "Overdrive City",
+    "developer": null,
+    "description": null,
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Shuten Order",
+    "developer": "Neilo",
+    "description": "The resurrected, murdered, founder of the cult Shuten Order has four days to find his murderer among the five suspects - five ministers of the Shuten Order.",
+    "genres": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/20/201266/3803270-shuten_order_cover_01_v2.jpg"
+  },
+  {
+    "title": "Moonlight Pulse",
+    "developer": "Seafloor Games",
+    "description": "A search action game set inside the body of a giant spacefaring turtle. A team of Curative Agents work to protect the creature from a legion of parasitic invaders.",
+    "genres": [
+      "Action",
+      "Platformer"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/2/23093/3803266-0336999525-heade.jpg"
+  },
+  {
+    "title": "VARLET",
+    "developer": "FuRyu",
+    "description": "A school life RPG in another world where various encounters with other troubled students help the protagonist shape himself as a leader or a ruler.",
+    "genres": [
+      "Adventure",
+      "Role-Playing"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/20/201266/3803211-library_600x800_2x_v2.jpg"
+  },
+  {
+    "title": "Atelier Resleriana: The Red Alchemist & the White Guardian",
+    "developer": "GUST Co., Ltd.",
+    "description": "A stand alone console entry in the world of the \"Atelier Resleriana\" mobile gacha game, featuring protagonists from older Atelier games.",
+    "genres": [
+      "Adventure",
+      "Role-Playing"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/20/201266/3803148-b180cf232b2d8ccae33c36f892ce6bdb5f191ea932700786l.jpg"
+  },
+  {
+    "title": "Muscle Champion: Battle of Muscle Island",
+    "developer": "Hudson Entertainment, Inc.",
+    "description": "A minigame collection based on several TBS sports-reality TV shows, including \"Muscle Ranking\", \"Sportsman No.1 Championship\", and \"Sasuke\" (known internationally as Ninja Warrior).",
+    "genres": [
+      "Sports",
+      "Minigame Collection"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/239/2394140/3801639-5874731485-muscl.jpg"
+  },
+  {
+    "title": "Pool Edge",
+    "developer": "Nintendo Cube",
+    "description": "A pool simulator from NDcube. Play pool in locations such as hangers, a cruise ship, a pub and a church.",
+    "genres": [
+      "Billiards"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/239/2394140/3801596-7251741601-poole.jpg"
+  },
+  {
+    "title": "Eisei Meijin VI",
+    "developer": "Konami",
+    "description": "A shogi video game where the aim is to reach the rank of Meijin. ",
+    "genres": [
+      "Trivia/Board Game"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/239/2394140/3801575-7502611820-eisai.jpg"
+  },
+  {
+    "title": "Mutsu to Nohohon",
+    "developer": "Tomy",
+    "description": "A pet simulation game where the pet swims around 12 different environments, looking for things to interact with.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/239/2394140/3801500-0046807698-mutsu.jpg"
+  },
+  {
+    "title": "Kitsune: The Journey of Adashino",
+    "developer": null,
+    "description": "Atmospheric 3D action/adventure game focused on the exploration of a mysterious island inspired by Japanese folklore.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/152/1521178/3800620-images%282%29.jpeg"
+  },
+  {
+    "title": "Daemons",
+    "developer": null,
+    "description": "Dæmons is a Tamagotchi and Pokémon-inspired omnichain game that transforms players’ on-chain activity into a custom, interactive Dæmon (pet). In the game, players will be able to raise, train, and evolve their Dæmon, participate in PvP battles, and explore PvE adventures with AI-enabled interactivity. Dæmons intends to bring a nostalgic yet innovative experience to the blockchain space, engaging communities in a fun and rewarding way. ?",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/239/2393588/3800595-daemonmainlogo.png"
+  },
+  {
+    "title": "Brazilian Drug Dealer 3: I Opened a Portal to Hell in the Favela Trying to Revive Mit Aia I Need to Close It",
+    "developer": null,
+    "description": "A self-parody, youtube-poop style first-person shooter.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/157/1572921/3800491-header_alt_assets_1.jpg"
+  },
+  {
+    "title": "Nickelodeon Brain Bender",
+    "developer": "Human Code, Inc.",
+    "description": "An activity center based on Nickelodeon cartoon characters, with puzzle mini-games.",
+    "genres": [
+      "Minigame Collection",
+      "Puzzle"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/239/2391650/3800352-517t7a6s7kl.jpg"
+  },
+  {
+    "title": "Balanced Food CalorieMate for Game Creators - Jelly Mission -",
+    "developer": " CalorieMate Games",
+    "description": "Become a Calorie Mate Jelly in this follow-up 3D platformer advergame.",
+    "genres": [
+      "Platformer",
+      "Action-Adventure"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/12/121064/3799416-3133150073-libra.jpg"
+  },
+  {
+    "title": "Well Keeper",
+    "developer": null,
+    "description": "Well Keeper is a Bullet Hell Shoot `Em Up where players move by flapping. Battle waves of enemies, upgrade unique and unexpected abilities and become immensely powerful.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/239/2391159/3799340-wellkeeper_keyartandlogo_english_1920x1080.jpg"
+  },
+  {
+    "title": "Shigoto Owarini Ano Misede",
+    "developer": null,
+    "description": "A novel game where players spend four days enjoying conversations and meals with supernatural characters.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg"
+  },
+  {
+    "title": "Lucas the Game",
+    "developer": null,
+    "description": "Lucas learns at birth through his mother's prophecy he's the last hope for humanity. He immediately goes an extremely unusual adventure through realm after realm.  The map is full of epic boss battles and challenging puzzle platform levels. Contains mature humour.",
+    "genres": [],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/238/2388484/3798004-8779070875-lucas.jpg"
+  },
+  {
+    "title": "Forza Horizon 6",
+    "developer": "Playground Games",
+    "description": "Race across Japan in the sixth Forza Horizon title.",
+    "genres": [
+      "Driving/Racing"
+    ],
+    "releaseDate": null,
+    "coverImageUrl": "https://www.giantbomb.com/a/uploads/scale_medium/16/164924/3802587-5304227983-apps.38084.13758467164481545.17bde9ee-7784-425c-9f2a-f9637f3b6b06.6036f99d-39c7-495e-94e1-589467056cc7.jpg"
+  }
+]

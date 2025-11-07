@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import Follow from "../models/Follow.js";
 import User from "../models/User.js";
+import Notification from "../models/Notification.js";
 
 // POST /api/follow/:userId - Follow a user
 export async function followUser(req, res, next) {
@@ -34,6 +35,26 @@ export async function followUser(req, res, next) {
     });
 
     await follow.populate("following", "displayName email bio");
+
+    // Create notification for the user being followed (don't block follow if this fails)
+    try {
+      const follower = await User.findById(followerId)
+        .select("displayName")
+        .lean();
+      const followerName = follower?.displayName || "Someone";
+
+      await Notification.create({
+        user: userId, // The user being followed gets the notification
+        actor: followerId, // The user who started following
+        review: null, // No review for follow notifications
+        type: "user_followed",
+        message: `${followerName} started following you`,
+        read: false,
+      });
+    } catch (notificationError) {
+      // Log error but don't fail the follow action
+      console.error("Failed to create follow notification:", notificationError);
+    }
 
     res.status(201).json({
       message: "Successfully followed user",

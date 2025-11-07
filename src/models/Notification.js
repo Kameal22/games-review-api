@@ -16,7 +16,7 @@ const notificationSchema = new mongoose.Schema(
     review: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Review",
-      required: true,
+      required: false, // Optional - not needed for follow notifications
     },
     type: {
       type: String,

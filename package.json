@@ -8,7 +8,8 @@
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "lint": "echo \"(add your linter here)\"",
-    "seed:games": "node src/seeds/seedGames.js"
+    "seed:games": "node src/seeds/seedGames.js",
+    "fetch:rawg": "node src/seeds/fetchRawgGames.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",

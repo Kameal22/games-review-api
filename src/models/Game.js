@@ -7,8 +7,6 @@ const gameSchema = new mongoose.Schema(
     slug: { type: String, unique: true, index: true },
     description: { type: String, trim: true },
     genres: [{ type: String }],
-    platforms: [{ type: String }],
-    rating: { type: Number, min: 0, max: 10 },
     coverImageUrl: { type: String },
     releaseDate: { type: Date },
   },

@@ -14,7 +14,7 @@ const router = Router();
 router.get("/followers", requireAuth, getFollowers); // GET /api/follow/followers
 router.get("/following", requireAuth, getFollowing); // GET /api/follow/following
 router.get("/:displayName/status", requireAuth, getFollowStatus); // GET /api/follow/:displayName/status
-router.post("/:userId", requireAuth, followUser); // POST /api/follow/:userId
-router.delete("/:userId", requireAuth, unfollowUser); // DELETE /api/follow/:userId
+router.post("/:displayName", requireAuth, followUser); // POST /api/follow/:displayName
+router.delete("/:displayName", requireAuth, unfollowUser); // DELETE /api/follow/:displayName
 
 export default router;

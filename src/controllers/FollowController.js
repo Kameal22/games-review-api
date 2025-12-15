@@ -3,35 +3,40 @@ import Follow from "../models/Follow.js";
 import User from "../models/User.js";
 import Notification from "../models/Notification.js";
 
-// POST /api/follow/:userId - Follow a user
+// POST /api/follow/:displayName - Follow a user
 export async function followUser(req, res, next) {
   try {
     const followerId = req.user?.sub;
-    const { userId } = req.params;
+    const { displayName } = req.params;
 
     if (!followerId) {
       return res.status(401).json({ message: "Unauthorized" });
     }
 
-    if (!mongoose.Types.ObjectId.isValid(userId)) {
-      return res.status(400).json({ message: "Invalid userId" });
+    if (!displayName || !displayName.trim()) {
+      return res.status(400).json({ message: "Display name is required" });
     }
 
-    // Prevent self-follow
-    if (followerId === userId) {
-      return res.status(400).json({ message: "Cannot follow yourself" });
-    }
+    // Find target user by displayName
+    const targetUser = await User.findOne({
+      displayName: displayName.trim(),
+    }).lean();
 
-    // Check if target user exists
-    const targetUser = await User.findById(userId);
     if (!targetUser) {
       return res.status(404).json({ message: "User not found" });
+    }
+
+    const targetUserId = targetUser._id;
+
+    // Prevent self-follow
+    if (followerId.toString() === targetUserId.toString()) {
+      return res.status(400).json({ message: "Cannot follow yourself" });
     }
 
     // Create follow relationship
     const follow = await Follow.create({
       follower: followerId,
-      following: userId,
+      following: targetUserId,
     });
 
     await follow.populate("following", "displayName email bio");
@@ -44,7 +49,7 @@ export async function followUser(req, res, next) {
       const followerName = follower?.displayName || "Someone";
 
       await Notification.create({
-        user: userId, // The user being followed gets the notification
+        user: targetUserId, // The user being followed gets the notification
         actor: followerId, // The user who started following
         review: null, // No review for follow notifications
         type: "user_followed",
@@ -68,23 +73,34 @@ export async function followUser(req, res, next) {
   }
 }
 
-// DELETE /api/follow/:userId - Unfollow a user
+// DELETE /api/follow/:displayName - Unfollow a user
 export async function unfollowUser(req, res, next) {
   try {
     const followerId = req.user?.sub;
-    const { userId } = req.params;
+    const { displayName } = req.params;
 
     if (!followerId) {
       return res.status(401).json({ message: "Unauthorized" });
     }
 
-    if (!mongoose.Types.ObjectId.isValid(userId)) {
-      return res.status(400).json({ message: "Invalid userId" });
+    if (!displayName || !displayName.trim()) {
+      return res.status(400).json({ message: "Display name is required" });
     }
+
+    // Find target user by displayName
+    const targetUser = await User.findOne({
+      displayName: displayName.trim(),
+    }).lean();
+
+    if (!targetUser) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    const targetUserId = targetUser._id;
 
     const follow = await Follow.findOneAndDelete({
       follower: followerId,
-      following: userId,
+      following: targetUserId,
     });
 
     if (!follow) {

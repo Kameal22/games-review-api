@@ -9,7 +9,8 @@ import { requireAuth } from "../middleware/auth.js";
 const router = Router();
 
 router.get("/", requireAuth, getMyProfile);
-router.get("/:userId", requireAuth, getUserProfile);
+// Fetch profile by displayName instead of userId
+router.get("/:displayName", requireAuth, getUserProfile);
 router.put("/bio", requireAuth, updateUserBio);
 
 export default router;

@@ -179,23 +179,32 @@ export async function getFollowing(req, res, next) {
   }
 }
 
-// GET /api/follow/:userId/status - Check if current user follows a specific user
+// GET /api/follow/:displayName/status - Check if current user follows a specific user by displayName
 export async function getFollowStatus(req, res, next) {
   try {
     const followerId = req.user?.sub;
-    const { userId } = req.params;
+    const { displayName } = req.params;
 
     if (!followerId) {
       return res.status(401).json({ message: "Unauthorized" });
     }
 
-    if (!mongoose.Types.ObjectId.isValid(userId)) {
-      return res.status(400).json({ message: "Invalid userId" });
+    if (!displayName || !displayName.trim()) {
+      return res.status(400).json({ message: "Display name is required" });
+    }
+
+    // Find the target user by displayName
+    const targetUser = await User.findOne({
+      displayName: displayName.trim(),
+    }).lean();
+
+    if (!targetUser) {
+      return res.status(404).json({ message: "User not found" });
     }
 
     const follow = await Follow.findOne({
       follower: followerId,
-      following: userId,
+      following: targetUser._id,
     }).lean();
 
     res.json({

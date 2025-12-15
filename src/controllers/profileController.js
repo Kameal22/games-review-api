@@ -61,16 +61,21 @@ export async function getMyProfile(req, res, next) {
   }
 }
 
-// GET /api/profile/:userId
+// GET /api/profile/:displayName
 export async function getUserProfile(req, res, next) {
   try {
-    const { userId } = req.params;
-    if (!userId)
-      return res.status(400).json({ message: "User ID is required" });
+    const { displayName } = req.params;
+    if (!displayName || !displayName.trim()) {
+      return res.status(400).json({ message: "Display name is required" });
+    }
 
     // 1) basic user info
-    const user = await User.findById(userId).lean();
+    const user = await User.findOne({
+      displayName: displayName.trim(),
+    }).lean();
     if (!user) return res.status(404).json({ message: "User not found" });
+
+    const userId = user._id;
 
     // 2) lists (watchlist + reviews)
     const [watchlist, reviews] = await Promise.all([

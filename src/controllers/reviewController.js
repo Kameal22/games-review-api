@@ -23,8 +23,8 @@ const createSchema = z.object({
 
 export async function getReviews(req, res, next) {
   try {
-    // optional pagination via ?limit=10&skip=0
-    const limit = Math.min(parseInt(req.query.limit ?? "10", 10), 50);
+    // optional pagination via ?limit=25&skip=0
+    const limit = Math.min(parseInt(req.query.limit ?? "25", 10), 50);
     const skip = parseInt(req.query.skip ?? "0", 10);
 
     const reviews = await Review.find({})

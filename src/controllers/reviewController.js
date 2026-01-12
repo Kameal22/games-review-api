@@ -9,7 +9,7 @@ const score = z.number().min(0).max(10);
 
 const createSchema = z.object({
   gameId: z.string(),
-  text: z.string().trim().max(5000).optional(),
+  text: z.string().trim().max(10000).optional(),
 
   // allow subscores +/or finalScore
   gameplay: score.optional(),
@@ -197,7 +197,7 @@ export async function checkReviewExists(req, res, next) {
 }
 
 const updateSchema = z.object({
-  text: z.string().trim().max(5000).optional(),
+  text: z.string().trim().max(10000).optional(),
   gameplay: score.optional(),
   story: score.optional(),
   soundtrack: score.optional(),

@@ -27,7 +27,7 @@ const reviewSchema = new mongoose.Schema(
     finalScore: { type: Number, min: 0, max: 10, required: false },
 
     // Optional text
-    text: { type: String, trim: true, maxlength: 5000 },
+    text: { type: String, trim: true, maxlength: 10000 },
   },
   { timestamps: true }
 );

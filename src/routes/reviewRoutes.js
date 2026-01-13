@@ -3,6 +3,7 @@ import { requireAuth, optionalAuth } from "../middleware/auth.js";
 import {
   createReview,
   updateReview,
+  deleteReview,
   getReviews,
   listMyReviews,
   getSingleReview,
@@ -18,6 +19,7 @@ router.get("/highest-score", optionalAuth, fetchAndSortTenByHighestScore); // GE
 router.get("/check-exists/:gameId", requireAuth, checkReviewExists); // GET /api/reviews/check-exists/:gameId (requires auth - checks "my" review)
 router.post("/", requireAuth, createReview); // POST /api/reviews (requires auth)
 router.patch("/:id", requireAuth, updateReview); // PATCH /api/reviews/:id (requires auth)
+router.delete("/:id", requireAuth, deleteReview); // DELETE /api/reviews/:id (requires auth)
 router.get("/:id", optionalAuth, getSingleReview); // GET /api/reviews/:id (public)
 
 export default router;

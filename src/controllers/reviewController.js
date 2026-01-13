@@ -238,6 +238,35 @@ export async function updateReview(req, res, next) {
   }
 }
 
+export async function deleteReview(req, res, next) {
+  try {
+    const userId = req.user?.sub;
+    const { id } = req.params;
+
+    if (!userId) {
+      return res.status(401).json({ message: "Unauthorized" });
+    }
+
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json({ message: "Invalid review id" });
+    }
+
+    // Only allow users to delete their own reviews
+    const review = await Review.findOneAndDelete({
+      _id: id,
+      user: userId,
+    });
+
+    if (!review) {
+      return res.status(404).json({ message: "Review not found" });
+    }
+
+    res.json({ message: "Review deleted successfully" });
+  } catch (err) {
+    next(err);
+  }
+}
+
 export async function fetchAndSortTenByHighestScore(req, res, next) {
   try {
     const { category } = req.query;

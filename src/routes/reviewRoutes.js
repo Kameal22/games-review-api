@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { requireAuth } from "../middleware/auth.js";
+import { requireAuth, optionalAuth } from "../middleware/auth.js";
 import {
   createReview,
   updateReview,
@@ -12,12 +12,12 @@ import {
 
 const router = Router();
 
-router.get("/", requireAuth, getReviews); // GET /api/reviews
-router.get("/me", requireAuth, listMyReviews); // GET /api/reviews/me
-router.get("/highest-score", requireAuth, fetchAndSortTenByHighestScore); // GET /api/reviews/highest-score
-router.get("/check-exists/:gameId", requireAuth, checkReviewExists); // GET /api/reviews/check-exists/:gameId
-router.post("/", requireAuth, createReview); // POST /api/reviews
-router.patch("/:id", requireAuth, updateReview); // PATCH /api/reviews/:id
-router.get("/:id", requireAuth, getSingleReview); // GET /api/reviews/:id
+router.get("/", optionalAuth, getReviews); // GET /api/reviews (public)
+router.get("/me", requireAuth, listMyReviews); // GET /api/reviews/me (requires auth)
+router.get("/highest-score", optionalAuth, fetchAndSortTenByHighestScore); // GET /api/reviews/highest-score (public)
+router.get("/check-exists/:gameId", requireAuth, checkReviewExists); // GET /api/reviews/check-exists/:gameId (requires auth - checks "my" review)
+router.post("/", requireAuth, createReview); // POST /api/reviews (requires auth)
+router.patch("/:id", requireAuth, updateReview); // PATCH /api/reviews/:id (requires auth)
+router.get("/:id", optionalAuth, getSingleReview); // GET /api/reviews/:id (public)
 
 export default router;

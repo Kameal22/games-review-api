@@ -3,6 +3,7 @@ import { z } from "zod";
 import Review from "../models/Review.js";
 import Follow from "../models/Follow.js";
 import Notification from "../models/Notification.js";
+import ReviewInteraction from "../models/ReviewInteraction.js";
 
 // Reusable score validator (0–10)
 const score = z.number().min(0).max(10);
@@ -26,6 +27,7 @@ export async function getReviews(req, res, next) {
     // optional pagination via ?limit=25&skip=0
     const limit = Math.min(parseInt(req.query.limit ?? "25", 10), 50);
     const skip = parseInt(req.query.skip ?? "0", 10);
+    const userId = req.user?.sub;
 
     const reviews = await Review.find({})
       .sort({ createdAt: -1 })
@@ -35,7 +37,45 @@ export async function getReviews(req, res, next) {
       .populate("game", "title slug coverImageUrl genres releaseDate") // select game fields you need
       .lean();
 
-    res.json(reviews);
+    // Get like/dislike counts and user's interaction for each review
+    const reviewIds = reviews.map((r) => r._id);
+    const [likeCounts, dislikeCounts, userInteractions] = await Promise.all([
+      ReviewInteraction.aggregate([
+        { $match: { review: { $in: reviewIds }, type: "like" } },
+        { $group: { _id: "$review", count: { $sum: 1 } } },
+      ]),
+      ReviewInteraction.aggregate([
+        { $match: { review: { $in: reviewIds }, type: "dislike" } },
+        { $group: { _id: "$review", count: { $sum: 1 } } },
+      ]),
+      userId
+        ? ReviewInteraction.find({
+            user: userId,
+            review: { $in: reviewIds },
+          }).lean()
+        : Promise.resolve([]),
+    ]);
+
+    // Create maps for quick lookup
+    const likeMap = new Map(
+      likeCounts.map((item) => [item._id.toString(), item.count])
+    );
+    const dislikeMap = new Map(
+      dislikeCounts.map((item) => [item._id.toString(), item.count])
+    );
+    const interactionMap = new Map(
+      userInteractions.map((item) => [item.review.toString(), item.type])
+    );
+
+    // Add counts and user interaction to each review
+    const reviewsWithCounts = reviews.map((review) => ({
+      ...review,
+      likes: likeMap.get(review._id.toString()) || 0,
+      dislikes: dislikeMap.get(review._id.toString()) || 0,
+      userInteraction: interactionMap.get(review._id.toString()) || null,
+    }));
+
+    res.json(reviewsWithCounts);
   } catch (err) {
     next(err);
   }
@@ -44,11 +84,30 @@ export async function getReviews(req, res, next) {
 export async function getSingleReview(req, res, next) {
   try {
     const { id } = req.params;
+    const userId = req.user?.sub;
+
     const review = await Review.findById(id)
       .populate("user", "displayName")
-      .populate("game", "title slug coverImageUrl genres releaseDate");
+      .populate("game", "title slug coverImageUrl genres releaseDate")
+      .lean();
+
     if (!review) return res.status(404).json({ message: "Review not found" });
-    res.json(review);
+
+    // Get like/dislike counts
+    const [likes, dislikes, userInteraction] = await Promise.all([
+      ReviewInteraction.countDocuments({ review: id, type: "like" }),
+      ReviewInteraction.countDocuments({ review: id, type: "dislike" }),
+      userId
+        ? ReviewInteraction.findOne({ user: userId, review: id }).lean()
+        : Promise.resolve(null),
+    ]);
+
+    res.json({
+      ...review,
+      likes,
+      dislikes,
+      userInteraction: userInteraction?.type || null,
+    });
   } catch (err) {
     next(err);
   }

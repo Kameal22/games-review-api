@@ -24,15 +24,10 @@ const createSchema = z.object({
 
 export async function getReviews(req, res, next) {
   try {
-    // optional pagination via ?limit=25&skip=0
-    const limit = Math.min(parseInt(req.query.limit ?? "25", 10), 50);
-    const skip = parseInt(req.query.skip ?? "0", 10);
     const userId = req.user?.sub;
 
     const reviews = await Review.find({})
       .sort({ createdAt: -1 })
-      .skip(skip)
-      .limit(limit)
       .populate("user", "displayName") // only return displayName
       .populate("game", "title slug coverImageUrl genres releaseDate") // select game fields you need
       .lean();

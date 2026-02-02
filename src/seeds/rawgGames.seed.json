@@ -23220,5 +23220,930 @@
     ],
     "coverImageUrl": "https://media.rawg.io/media/games/580/580515de11a1b996918fa3ac118210bc.jpg",
     "releaseDate": "2022-04-21"
+  },
+  {
+    "title": "Marvel's Spider-Man 2",
+    "slug": "marvels-spider-man-2",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/7ae/7ae5a14cdb4ab222a134c15f4629e430.jpg",
+    "releaseDate": "2023-10-20"
+  },
+  {
+    "title": "Battlestations: Midway",
+    "slug": "battlestations-midway",
+    "description": "",
+    "genres": [
+      "Action",
+      "Strategy"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/123/123745b2adbd3cbc7c8e41fc839230dd.jpg",
+    "releaseDate": "2007-01-30"
+  },
+  {
+    "title": "Ether One",
+    "slug": "ether-one",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/fb5/fb5c78ebdff1690dc2db9cdf5e5462fe.jpg",
+    "releaseDate": "2014-03-25"
+  },
+  {
+    "title": "The Coma 2: Vicious Sisters",
+    "slug": "the-coma-2-vicious-sisters",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/945/945afcc72ce19b6636c02b81cae2eb24.jpg",
+    "releaseDate": "2020-01-27"
+  },
+  {
+    "title": "Dark Sector",
+    "slug": "dark-sector",
+    "description": "",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/9fc/9fccb768165df246b64051a2fdae6dfd.jpg",
+    "releaseDate": "2008-01-01"
+  },
+  {
+    "title": "Double Dragon: Neon",
+    "slug": "double-dragon-neon",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Arcade",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/7a4/7a48f6e1f542f41c7866b3beacb7a189.jpg",
+    "releaseDate": "2012-09-11"
+  },
+  {
+    "title": "Black The Fall",
+    "slug": "black-the-fall",
+    "description": "",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/6a4/6a43b22f180792bb0474cf3100413682.jpg",
+    "releaseDate": "2014-07-04"
+  },
+  {
+    "title": "Neon White",
+    "slug": "neon-white",
+    "description": "",
+    "genres": [
+      "Action",
+      "Shooter",
+      "Adventure",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/a12/a120fc7faed7666f8c320a755137e316.jpg",
+    "releaseDate": "2022-06-16"
+  },
+  {
+    "title": "Viscera Cleanup Detail",
+    "slug": "viscera-cleanup-detail",
+    "description": "",
+    "genres": [
+      "Simulation",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/a64/a64f58684478a9057873e370a0b7e5af.jpg",
+    "releaseDate": "2015-10-23"
+  },
+  {
+    "title": "Cities XL Platinum",
+    "slug": "cities-xl-platinum",
+    "description": "",
+    "genres": [
+      "Simulation"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/264/264b921f97923e16f381117759262858.jpg",
+    "releaseDate": "2013-02-06"
+  },
+  {
+    "title": "The Room Two",
+    "slug": "the-room-two",
+    "description": "",
+    "genres": [
+      "Indie",
+      "Puzzle"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/212/212da454bc72d30d8a8c0c89922cbef4.jpg",
+    "releaseDate": "2013-12-12"
+  },
+  {
+    "title": "Endorlight",
+    "slug": "endorlight",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "Casual",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/9b7/9b7a0b5098e32bfe030115f17df363ba.jpg",
+    "releaseDate": "2016-04-26"
+  },
+  {
+    "title": "Horizon Zero Dawn Complete Edition",
+    "slug": "horizon-zero-dawn-complete-edition",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/d71/d7103d99d17e4b66acd1d6ad746e5bd5.jpg",
+    "releaseDate": "2017-12-05"
+  },
+  {
+    "title": "Sonic the Hedgehog 2",
+    "slug": "sonic-the-hedgehog-2",
+    "description": "",
+    "genres": [
+      "Action",
+      "Arcade",
+      "Platformer"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/2c3/2c3363eb1ae202b9e4e7520d3f14ab2e.jpg",
+    "releaseDate": "1992-11-21"
+  },
+  {
+    "title": "Blood Bowl Legendary Edition",
+    "slug": "blood-bowl-legendary-edition",
+    "description": "",
+    "genres": [
+      "Strategy",
+      "Sports"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/6b4/6b4353172a07d3c4c83fa731f7ddaee6.jpg",
+    "releaseDate": "2010-10-28"
+  },
+  {
+    "title": "Crimsonland",
+    "slug": "crimsonland",
+    "description": "",
+    "genres": [
+      "Action",
+      "Shooter",
+      "RPG",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/adf/adfa87c6b78fe175e7441fabd89ad75d.jpeg",
+    "releaseDate": "2003-06-11"
+  },
+  {
+    "title": "Galactic Civilizations III",
+    "slug": "galactic-civilizations-iii",
+    "description": "",
+    "genres": [
+      "Strategy",
+      "Simulation",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/f8a/f8ae83f70a0f2631d7123a5caca19ace.jpg",
+    "releaseDate": "2015-05-13"
+  },
+  {
+    "title": "Google Earth VR",
+    "slug": "google-earth-vr",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "Simulation",
+      "Casual"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/e46/e467e49e03b95b4733c44303d0102cb3.jpg",
+    "releaseDate": "2016-11-16"
+  },
+  {
+    "title": "Ultimate Marvel vs. Capcom 3",
+    "slug": "ultimate-marvel-vs-capcom-3",
+    "description": "",
+    "genres": [
+      "Fighting"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/106/10679840f87dba8f493612d9d542d566.jpeg",
+    "releaseDate": "2011-11-15"
+  },
+  {
+    "title": "Hot Wheels Unleashed",
+    "slug": "hot-wheels-unleashed",
+    "description": "",
+    "genres": [
+      "Racing"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/201/201feb4db3118c1440ebdce03e61e3fb.jpg",
+    "releaseDate": "2021-09-27"
+  },
+  {
+    "title": "PGA TOUR 2K21",
+    "slug": "pga-tour-2k21",
+    "description": "",
+    "genres": [
+      "Simulation",
+      "Sports"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/1ec/1ec1d732eb8befab6e9838926d95f6f8.jpg",
+    "releaseDate": "2020-08-21"
+  },
+  {
+    "title": "Insurgency: Sandstorm",
+    "slug": "insurgency-sandstorm",
+    "description": "",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/0a5/0a56d96dd280a5d4141a097629d902e3.jpg",
+    "releaseDate": "2018-12-12"
+  },
+  {
+    "title": "WWE 2K Battlegrounds",
+    "slug": "wwe-2k-battlegrounds",
+    "description": "",
+    "genres": [
+      "Action",
+      "Sports",
+      "Fighting"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/a4c/a4c1fd4265ac2c1edc87cb9a6a7644e4.jpg",
+    "releaseDate": "2020-09-18"
+  },
+  {
+    "title": "Ascendant",
+    "slug": "ascendant",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/8f4/8f4ccefd9849cc0ad08fc151ecc728a6.jpg",
+    "releaseDate": "2014-05-12"
+  },
+  {
+    "title": "Lichdom: Battlemage",
+    "slug": "lichdom-battlemage",
+    "description": "",
+    "genres": [
+      "Action",
+      "RPG",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/9bd/9bdd4a4a2953666d27e88ff72edfd845.jpg",
+    "releaseDate": "2014-08-25"
+  },
+  {
+    "title": "Neighbours back From Hell",
+    "slug": "neighbours-back-from-hell",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Strategy",
+      "Casual",
+      "Puzzle"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/f39/f394c09e4760251c58e9ab9f45d7718c.jpg",
+    "releaseDate": "2020-10-08"
+  },
+  {
+    "title": "The Orange Box",
+    "slug": "the-orange-box",
+    "description": "",
+    "genres": [
+      "Shooter"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/55a/55a685051caa3d478836fa7c1d074694.jpg",
+    "releaseDate": "2008-01-01"
+  },
+  {
+    "title": "WARSAW",
+    "slug": "warsaw",
+    "description": "",
+    "genres": [
+      "RPG",
+      "Strategy",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/92e/92e1e8dd0b1fd2071d88c91590b72b3b.jpg",
+    "releaseDate": "2019-10-01"
+  },
+  {
+    "title": "Wargame: Red Dragon",
+    "slug": "wargame-red-dragon",
+    "description": "",
+    "genres": [
+      "Strategy"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/ecb/ecb32cf472d803aabd3a18c35866186b.jpg",
+    "releaseDate": "2014-04-17"
+  },
+  {
+    "title": "Sacred Gold",
+    "slug": "sacred-gold",
+    "description": "",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/103/10332e2bf8bc1bf59c171d49ad37f382.jpg",
+    "releaseDate": "2005-08-12"
+  },
+  {
+    "title": "Dorfromantik",
+    "slug": "dorfromantik",
+    "description": "",
+    "genres": [
+      "Strategy",
+      "Simulation",
+      "Casual",
+      "Indie",
+      "Puzzle"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/b00/b00b7cc04dd09531b631ea4575696276.jpg",
+    "releaseDate": "2022-04-28"
+  },
+  {
+    "title": "Valfaris",
+    "slug": "valfaris",
+    "description": "",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/6ce/6ce7b3c02a57f6d21f1009ed3305736e.jpg",
+    "releaseDate": "2019-10-10"
+  },
+  {
+    "title": "Rome: Total War - Alexander",
+    "slug": "rome-total-war-alexander",
+    "description": "",
+    "genres": [
+      "Strategy",
+      "Simulation"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/dfc/dfc88887160d34d7c8d3e3acdc2ac491.jpg",
+    "releaseDate": "2006-06-26"
+  },
+  {
+    "title": "Gunfire Reborn",
+    "slug": "gunfire-reborn",
+    "description": "",
+    "genres": [
+      "Action",
+      "Shooter",
+      "Adventure",
+      "RPG",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/108/108628a1f93b1bceeaf3a2cb0146f103.jpg",
+    "releaseDate": "2020-05-22"
+  },
+  {
+    "title": "Odysseus Kosmos - Episode 1",
+    "slug": "odysseus-kosmos-episode-1",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Puzzle"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/c12/c12629168053f6616ea78315eeb11843.jpg",
+    "releaseDate": "2018-01-12"
+  },
+  {
+    "title": "Tom Clancy's Ghost Recon Breakpoint",
+    "slug": "tom-clancys-ghost-recon-breakpoint",
+    "description": "",
+    "genres": [
+      "Action",
+      "Shooter",
+      "Adventure"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/b0a/b0aa291a4f8e49f389f2785b7f449328.jpg",
+    "releaseDate": "2019-10-04"
+  },
+  {
+    "title": "Nioh 2",
+    "slug": "nioh-2",
+    "description": "",
+    "genres": [
+      "Action"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/a35/a359074cde22a4b23c54db44a592dc41.jpg",
+    "releaseDate": "2020-03-13"
+  },
+  {
+    "title": "Rise of Nations: Extended Edition",
+    "slug": "rise-of-nations-extended-edition",
+    "description": "",
+    "genres": [
+      "Strategy",
+      "Simulation"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/b36/b36e7eef6b9d72c0f1583218e9931004.jpg",
+    "releaseDate": "2014-06-12"
+  },
+  {
+    "title": "Ticket to Ride: First Journey",
+    "slug": "ticket-to-ride-first-journey",
+    "description": "",
+    "genres": [
+      "Strategy",
+      "Board Games",
+      "Casual",
+      "Family"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/bfc/bfcdbc0a64ce19da4ce4cac8b7d2d985.jpg",
+    "releaseDate": "2017-09-27"
+  },
+  {
+    "title": "Neighbours from Hell Compilation",
+    "slug": "neighbours-from-hell-compilation",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "Casual",
+      "Puzzle"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/160/1609d2e78bc0a19bdbc38b6f53b28968_hFQ0k8h.jpg",
+    "releaseDate": "2004-02-20"
+  },
+  {
+    "title": "The Legend of Heroes: Trails in the Sky",
+    "slug": "the-legend-of-heroes-trails-in-the-sky",
+    "description": "",
+    "genres": [
+      "RPG"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/172/172198bbcf9680d00fb621b50cbe630c.jpg",
+    "releaseDate": "2006-10-28"
+  },
+  {
+    "title": "LEGO Marvel Super Heroes 2",
+    "slug": "lego-marvel-super-heroes-2",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/8e6/8e6f45ae541c5016e270e132d223ffe2.jpg",
+    "releaseDate": "2017-11-14"
+  },
+  {
+    "title": "Mighty No. 9",
+    "slug": "mighty-no-9",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/fb0/fb05d26860505d5bc58619f9b8359c15.jpeg",
+    "releaseDate": "2016-06-21"
+  },
+  {
+    "title": "Toki Tori 2+",
+    "slug": "toki-tori-2",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "Casual",
+      "Indie",
+      "Puzzle"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/fe8/fe8cb32a27b3dfda006209ca2feff24c.jpg",
+    "releaseDate": "2013-04-04"
+  },
+  {
+    "title": "Worms Pinball",
+    "slug": "worms-pinball",
+    "description": "",
+    "genres": [
+      "Casual"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/df5/df5eee47410d0625f4f2ef708c95faf9.jpg",
+    "releaseDate": "2011-10-19"
+  },
+  {
+    "title": "Sid Meier's Railroads!",
+    "slug": "sid-meiers-railroads",
+    "description": "",
+    "genres": [
+      "Strategy",
+      "Simulation"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/adb/adb9e34f5ee059021fc21474f79ec6ee.jpg",
+    "releaseDate": "2006-10-17"
+  },
+  {
+    "title": "Tales of Symphonia (2014)",
+    "slug": "tales-of-symphonia",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "RPG"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/459/459a3bd05e0f59fce631897e3d6f2f6e.jpg",
+    "releaseDate": "2014-02-25"
+  },
+  {
+    "title": "Waking Mars",
+    "slug": "waking-mars",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Simulation",
+      "Arcade",
+      "Indie",
+      "Platformer"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/1dd/1ddb8ea784f98fc8cb77c0e5ccd28105.jpeg",
+    "releaseDate": "2012-02-29"
+  },
+  {
+    "title": "BPM: BULLETS PER MINUTE",
+    "slug": "bpm-bullets-per-minute",
+    "description": "",
+    "genres": [
+      "Action",
+      "Shooter",
+      "Adventure",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/a06/a06ad03386dc427ec2365d541b324b75.jpg",
+    "releaseDate": "2020-09-15"
+  },
+  {
+    "title": "Lovely Planet",
+    "slug": "lovely-planet",
+    "description": "",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/458/4589cd61f57fe507df050370e16738eb.jpg",
+    "releaseDate": "2014-07-30"
+  },
+  {
+    "title": "BADLAND: Game of the Year Edition",
+    "slug": "badland-game-of-the-year-edition",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/6a3/6a3ee4e7f0466634bf2aec806688f7cf.jpg",
+    "releaseDate": "2015-05-26"
+  },
+  {
+    "title": "Alien Shooter 2: Reloaded",
+    "slug": "alien-shooter-2-reloaded",
+    "description": "",
+    "genres": [
+      "Action",
+      "RPG",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/7cf/7cf3a3a31d53a283984e6cf1b3781c21.jpg",
+    "releaseDate": "2006-09-06"
+  },
+  {
+    "title": "STREET FIGHTER X TEKKEN",
+    "slug": "street-fighter-x-tekken",
+    "description": "",
+    "genres": [
+      "Action",
+      "Fighting"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/1e2/1e23f3c3e83e8fb562c58408b3d5fd63.jpg",
+    "releaseDate": "2011-09-05"
+  },
+  {
+    "title": "The Jackbox Party Pack",
+    "slug": "the-jackbox-party-pack",
+    "description": "",
+    "genres": [
+      "Strategy",
+      "Board Games",
+      "Casual",
+      "Card",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/d3f/d3f9638e581b01d872bec784aaa9bdad.jpg",
+    "releaseDate": "2014-11-18"
+  },
+  {
+    "title": "Farming Simulator 19",
+    "slug": "farming-simulator-19",
+    "description": "",
+    "genres": [
+      "Simulation",
+      "Family"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/309/309f6f52d63d494270c3f4ca24e66839.jpg",
+    "releaseDate": "2018-11-19"
+  },
+  {
+    "title": "Mirror",
+    "slug": "mirror",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Arcade",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/85f/85f9c6504b3a43298216691619cc37fe.jpg",
+    "releaseDate": "2017-09-21"
+  },
+  {
+    "title": "Steel Storm: Burning Retribution",
+    "slug": "steel-storm-burning-retribution",
+    "description": "",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/23a/23a9831eb644ffc7fed0d5817aaab32d.jpg",
+    "releaseDate": "2011-05-11"
+  },
+  {
+    "title": "Dragon Age: Origins Awakening",
+    "slug": "dragon-age-origins-awakening",
+    "description": "",
+    "genres": [
+      "RPG"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/736/736e1e2e7670169114a48b5f65f66bdb.jpg",
+    "releaseDate": "2010-03-16"
+  },
+  {
+    "title": "République",
+    "slug": "republique",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/f8e/f8e26a97d0b6c77dd83f757d1bc5e66a.jpg",
+    "releaseDate": "2013-12-19"
+  },
+  {
+    "title": "Evergarden",
+    "slug": "evergarden",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "Strategy",
+      "Indie",
+      "Puzzle"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/ebf/ebfd656e5006cb0197a298cca8f66034.jpg",
+    "releaseDate": "2018-08-16"
+  },
+  {
+    "title": "Turnip Boy Commits Tax Evasion",
+    "slug": "turnip-boy-commits-tax-evasion",
+    "description": "",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Casual",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/4ce/4ce87a0d1274009bc19588eb491b1e01.jpg",
+    "releaseDate": "2021-04-22"
+  },
+  {
+    "title": "Colin McRae: DiRT 2",
+    "slug": "dirt-2",
+    "description": "",
+    "genres": [
+      "Racing",
+      "Arcade"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/9de/9de9d9c51e2867486222a7b3e0fb6062.jpg",
+    "releaseDate": "2009-09-08"
+  },
+  {
+    "title": "Grey Goo",
+    "slug": "grey-goo",
+    "description": "",
+    "genres": [
+      "Strategy"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/e37/e37cfceae9b2f79c29a1e9a8155c2d63.jpg",
+    "releaseDate": "2015-01-23"
+  },
+  {
+    "title": "RUSH",
+    "slug": "rush",
+    "description": "",
+    "genres": [
+      "Action",
+      "Strategy",
+      "Simulation",
+      "Sports",
+      "Racing",
+      "Arcade",
+      "Casual",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/0da/0dab7553a533264235d77719bd83a5b2.jpg",
+    "releaseDate": "2010-12-03"
+  },
+  {
+    "title": "Hatoful Boyfriend",
+    "slug": "hatoful-boyfriend",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "Simulation"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/81e/81e5cf3f433473af3a04888e3baceeba.jpg",
+    "releaseDate": "2014-09-03"
+  },
+  {
+    "title": "SPORE Galactic Adventures",
+    "slug": "spore-galactic-adventures",
+    "description": "",
+    "genres": [
+      "Action",
+      "Simulation"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/034/034f57407f60d07f25d716fc2c01d768.jpg",
+    "releaseDate": "2009-06-23"
+  },
+  {
+    "title": "Else Heart.Break()",
+    "slug": "else-heartbreak",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/f8a/f8a1203fcf76a4352cd711702d252aa1_FOf3lw6.jpg",
+    "releaseDate": "2015-09-23"
+  },
+  {
+    "title": "DEAD OR ALIVE 5 Last Round: Core Fighters",
+    "slug": "dead-or-alive-5-last-round-core-fighters",
+    "description": "",
+    "genres": [
+      "Action",
+      "Fighting"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/8c4/8c44bf4c09f224dc6341c4f22cbd67ff.jpg",
+    "releaseDate": "2013-09-03"
+  },
+  {
+    "title": "Goose Goose Duck",
+    "slug": "goose-goose-duck",
+    "description": "",
+    "genres": [
+      "Action",
+      "Strategy",
+      "Casual",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/983/98330a21cccd92d900d7b97b81e6db9e.jpg",
+    "releaseDate": "2021-04-30"
+  },
+  {
+    "title": "Jump Force",
+    "slug": "jump-force",
+    "description": "",
+    "genres": [
+      "Action",
+      "RPG",
+      "Fighting"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/bac/bac558c863989fadc4fede908c15cd64.jpg",
+    "releaseDate": "2019-02-15"
+  },
+  {
+    "title": "Jalopy",
+    "slug": "jalopy",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "Simulation",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/eb6/eb6c283c4ad2cba34874f1e24a4dbeff.jpg",
+    "releaseDate": "2016-04-21"
+  },
+  {
+    "title": "Bad Rats: the Rats' Revenge",
+    "slug": "bad-rats-the-rats-revenge",
+    "description": "",
+    "genres": [
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/a97/a97b0e257daca77c23cf93ac9fff7487.jpg",
+    "releaseDate": "2009-07-20"
+  },
+  {
+    "title": "Guild Wars 2",
+    "slug": "guild-wars-2",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Massively Multiplayer"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/420/4205650e0fd16a5ba7bf4f8524fac1f1.jpg",
+    "releaseDate": "2012-08-28"
+  },
+  {
+    "title": "The Plan",
+    "slug": "the-plan",
+    "description": "",
+    "genres": [
+      "Casual",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/327/3271755bdf6feb24e5823f89f3024d6d.jpg",
+    "releaseDate": "2014-02-14"
+  },
+  {
+    "title": "Broken Sword 5 - The Serpent's Curse",
+    "slug": "broken-sword-5",
+    "description": "",
+    "genres": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/dd2/dd2959a5d4ef08ca3ba887945a117334.jpg",
+    "releaseDate": "2013-12-03"
+  },
+  {
+    "title": "RPG Maker VX Ace",
+    "slug": "rpg-maker-vx-ace",
+    "description": "",
+    "genres": [],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/18e/18ef77d2a8ed1ddb7f1abf358a3c1ea0.jpg",
+    "releaseDate": "2012-12-10"
+  },
+  {
+    "title": "Potion Craft: Alchemist Simulator",
+    "slug": "potion-craft-alchemist-simulator",
+    "description": "",
+    "genres": [
+      "Simulation",
+      "Casual",
+      "Indie"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/18e/18e422ec82ea060e0641cb419faca210.jpg",
+    "releaseDate": "2022-12-13"
+  },
+  {
+    "title": "SingStar",
+    "slug": "singstar",
+    "description": "",
+    "genres": [],
+    "coverImageUrl": "https://media.rawg.io/media/screenshots/8c3/8c312247dac2ef29cb69bc9995991e5c.jpg",
+    "releaseDate": "2014-10-28"
+  },
+  {
+    "title": "Call of Duty: Modern Warfare II",
+    "slug": "call-of-duty-modern-warfare-ii",
+    "description": "",
+    "genres": [
+      "Action",
+      "Shooter"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/1af/1af8edc7491c6d9d0776fc423d93548d.jpg",
+    "releaseDate": "2022-10-22"
+  },
+  {
+    "title": "Age of Empires III: Definitive Edition",
+    "slug": "age-of-empires-iii-definitive-edition",
+    "description": "",
+    "genres": [
+      "Strategy"
+    ],
+    "coverImageUrl": "https://media.rawg.io/media/games/f68/f68f04eeeadaa87cf0d2534306f96850.jpg",
+    "releaseDate": "2020-10-15"
   }
 ]

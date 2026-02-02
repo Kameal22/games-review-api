@@ -9,7 +9,8 @@
     "start": "node src/server.js",
     "lint": "echo \"(add your linter here)\"",
     "seed:games": "node src/seeds/seedGames.js",
-    "fetch:rawg": "node src/seeds/fetchRawgGames.js"
+    "fetch:rawg": "node src/seeds/fetchRawgGames.js",
+    "fetch:rawg:recent": "node src/seeds/fetchRawgRecentGames.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",

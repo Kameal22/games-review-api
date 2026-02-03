@@ -46,7 +46,7 @@ export async function getMyProfile(req, res, next) {
       (a, b) => b[1] - a[1]
     )[0];
 
-    const higherScore = reviews.reduce((max, review) => {
+    const highestScore = reviews.reduce((max, review) => {
       return Math.max(max, review.finalScore);
     }, 0);
 
@@ -58,7 +58,7 @@ export async function getMyProfile(req, res, next) {
       reviewCount,
       averageFinalScore,
       mostReviewedGenre: mostReviewedGenre[0], // null if no reviews yet
-      higherScore,
+      highestScore,
       lowestScore,
       // You can add more later: mostReviewedGenre, lastActivityAt, etc.
     };
@@ -134,7 +134,7 @@ export async function getUserProfile(req, res, next) {
       (a, b) => b[1] - a[1]
     )[0];
 
-    const higherScore = reviews.reduce((max, review) => {
+    const highestScore = reviews.reduce((max, review) => {
       return Math.max(max, review.finalScore);
     }, 0);
 
@@ -146,7 +146,7 @@ export async function getUserProfile(req, res, next) {
       reviewCount,
       averageFinalScore,
       mostReviewedGenre: mostReviewedGenre[0], // null if no reviews yet
-      higherScore,
+      highestScore,
       lowestScore,
       // You can add more later: mostReviewedGenre, lastActivityAt, etc.
     };

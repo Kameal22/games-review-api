@@ -23,17 +23,34 @@ async function main() {
   await mongoose.connect(uri);
   console.log("Connected to Mongo");
 
-  // Load games from rawgGames.seed.json
-  const rawgGamesFilePath = path.join(__dirname, "rawgGames.seed.json");
-  if (!fs.existsSync(rawgGamesFilePath)) {
-    console.error("rawgGames.seed.json not found!");
+  // Load games from seed files (rawgGames.seed.json and rawgGames2025.seed.json if present)
+  const seedFiles = ["rawgGames.seed.json", "rawgGames2025.seed.json"];
+  const allDocs = [];
+
+  for (const fileName of seedFiles) {
+    const filePath = path.join(__dirname, fileName);
+    if (fs.existsSync(filePath)) {
+      try {
+        const raw = fs.readFileSync(filePath, "utf-8");
+        const docs = JSON.parse(raw);
+        allDocs.push(...docs);
+        console.log(`Loaded ${docs.length} games from ${fileName}`);
+      } catch (err) {
+        console.error(`Error reading ${fileName}:`, err.message);
+      }
+    } else {
+      console.log(`${fileName} not found, skipping...`);
+    }
+  }
+
+  if (allDocs.length === 0) {
+    console.error("No games to seed. Add rawgGames.seed.json or rawgGames2025.seed.json");
     await mongoose.disconnect();
     process.exit(1);
   }
 
-  const raw = fs.readFileSync(rawgGamesFilePath, "utf-8");
-  const docs = JSON.parse(raw);
-  console.log(`Loaded ${docs.length} games from rawgGames.seed.json\n`);
+  const docs = allDocs;
+  console.log(`\nTotal games to process: ${docs.length}\n`);
 
   let inserted = 0,
     skipped = 0;

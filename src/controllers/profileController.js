@@ -34,10 +34,32 @@ export async function getMyProfile(req, res, next) {
               10
           ) / 10
         : null;
+    const mostReviewedGenres = reviews.reduce((acc, review) => {
+      const genres = review.game.genres;
+      genres.forEach((genre) => {
+        acc[genre] = (acc[genre] || 0) + 1;
+      });
+      return acc;
+    }, {});
+
+    const mostReviewedGenre = Object.entries(mostReviewedGenres).sort(
+      (a, b) => b[1] - a[1]
+    )[0];
+
+    const higherScore = reviews.reduce((max, review) => {
+      return Math.max(max, review.finalScore);
+    }, 0);
+
+    const lowestScore = reviews.reduce((min, review) => {
+      return Math.min(min, review.finalScore);
+    }, 10);
 
     const insights = {
       reviewCount,
-      averageFinalScore, // null if no reviews yet
+      averageFinalScore,
+      mostReviewedGenre: mostReviewedGenre[0], // null if no reviews yet
+      higherScore,
+      lowestScore,
       // You can add more later: mostReviewedGenre, lastActivityAt, etc.
     };
 

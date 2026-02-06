@@ -29,7 +29,7 @@ export async function addToWatchlist(req, res, next) {
           status: status || "planned",
         },
       },
-      { upsert: true, new: true }
+      { upsert: true, new: true },
     ).populate("game", "title slug coverImageUrl genres releaseDate rating");
 
     res.status(201).json(entry);
@@ -60,7 +60,7 @@ export async function updateWatchlistStatus(req, res, next) {
     const entry = await Watchlist.findOneAndUpdate(
       { _id: id, user: userId },
       { $set: parsed.data },
-      { new: true, runValidators: true }
+      { new: true, runValidators: true },
     ).populate("game", "title slug coverImageUrl");
 
     if (!entry)
@@ -97,6 +97,46 @@ export async function listMyWatchlist(req, res, next) {
       .sort({ createdAt: -1 })
       .populate("game", "title slug coverImageUrl genres releaseDate rating");
     res.json(entries);
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function markAsBought(req, res, next) {
+  try {
+    const userId = req.user?.sub;
+    const { gameId } = req.params;
+    if (!mongoose.Types.ObjectId.isValid(gameId)) {
+      return res.status(400).json({ message: "Invalid gameId" });
+    }
+    const entry = await Watchlist.findOneAndUpdate(
+      { user: userId, game: gameId },
+      { $set: { bought: true } },
+      { new: true },
+    );
+    if (!entry)
+      return res.status(404).json({ message: "Watchlist entry not found" });
+    res.json(entry);
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function markAsUnbought(req, res, next) {
+  try {
+    const userId = req.user?.sub;
+    const { gameId } = req.params;
+    if (!mongoose.Types.ObjectId.isValid(gameId)) {
+      return res.status(400).json({ message: "Invalid gameId" });
+    }
+    const entry = await Watchlist.findOneAndUpdate(
+      { user: userId, game: gameId },
+      { $set: { bought: false } },
+      { new: true },
+    );
+    if (!entry)
+      return res.status(404).json({ message: "Watchlist entry not found" });
+    res.json(entry);
   } catch (err) {
     next(err);
   }

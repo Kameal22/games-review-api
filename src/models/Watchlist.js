@@ -19,9 +19,10 @@ const watchlistSchema = new mongoose.Schema(
       enum: ["planned", "watching", "completed"],
       default: "planned",
     },
+    bought: { type: Boolean, default: false },
     addedAt: { type: Date, default: Date.now },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 // One watchlist entry per (user, game)

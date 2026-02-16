@@ -4,6 +4,7 @@ import Review from "../models/Review.js";
 import Follow from "../models/Follow.js";
 import Notification from "../models/Notification.js";
 import ReviewInteraction from "../models/ReviewInteraction.js";
+import GamesToReview from "../models/GamesToReview.js";
 
 // Reusable score validator (0–10)
 const score = z.number().min(0).max(10);
@@ -218,6 +219,17 @@ export async function createReview(req, res, next) {
     } catch (notificationError) {
       // Log error but don't fail the review creation
       console.error("Failed to create notifications:", notificationError);
+    }
+
+    // Remove game from games-to-review list (don't block review creation if this fails)
+    try {
+      await GamesToReview.findOneAndDelete({
+        user: userId,
+        game: gameId,
+      });
+    } catch (gamesToReviewError) {
+      // Log error but don't fail the review creation
+      console.error("Failed to remove from games-to-review:", gamesToReviewError);
     }
 
     res.status(201).json(review);

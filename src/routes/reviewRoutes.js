@@ -2,6 +2,7 @@ import { Router } from "express";
 import { requireAuth, optionalAuth } from "../middleware/auth.js";
 import {
   createReview,
+  createQuickReview,
   updateReview,
   deleteReview,
   getReviews,
@@ -11,11 +12,6 @@ import {
   fetchAndSortTenByHighestScore,
 } from "../controllers/reviewController.js";
 import reviewInteractionRoutes from "./reviewInteractionRoutes.js";
-import {
-  createQuickReview,
-  updateQuickReview,
-  deleteQuickReview,
-} from "../controllers/quickReviewController.js";
 
 const router = Router();
 
@@ -32,7 +28,5 @@ router.use("/", reviewInteractionRoutes);
 router.patch("/:id", requireAuth, updateReview); // PATCH /api/reviews/:id (requires auth)
 router.delete("/:id", requireAuth, deleteReview); // DELETE /api/reviews/:id (requires auth)
 router.get("/:id", optionalAuth, getSingleReview); // GET /api/reviews/:id (public)
-router.patch("/quick-review/:id", requireAuth, updateQuickReview); // PATCH /api/reviews/quick-review/:id (requires auth)
-router.delete("/quick-review/:id", requireAuth, deleteQuickReview); // DELETE /api/reviews/quick-review/:id (requires auth)
 
 export default router;

@@ -23,6 +23,12 @@ const createSchema = z.object({
   finalScore: score.optional(),
 });
 
+const createQuickSchema = z.object({
+  gameId: z.string(),
+  text: z.string().trim().max(10000).optional(),
+  finalScore: z.number().min(1).max(10),
+});
+
 export async function getReviews(req, res, next) {
   try {
     const userId = req.user?.sub;
@@ -229,6 +235,81 @@ export async function createReview(req, res, next) {
       });
     } catch (gamesToReviewError) {
       // Log error but don't fail the review creation
+      console.error("Failed to remove from games-to-review:", gamesToReviewError);
+    }
+
+    res.status(201).json(review);
+  } catch (err) {
+    if (err.code === 11000) {
+      return res
+        .status(409)
+        .json({ message: "You already reviewed this game" });
+    }
+    next(err);
+  }
+}
+
+export async function createQuickReview(req, res, next) {
+  try {
+    const userId = req.user?.sub;
+    const parsed = createQuickSchema.safeParse(req.body);
+    if (!parsed.success) {
+      return res
+        .status(400)
+        .json({ message: "Invalid input", issues: parsed.error.issues });
+    }
+
+    const { gameId, finalScore, text } = parsed.data;
+    if (!mongoose.Types.ObjectId.isValid(gameId)) {
+      return res.status(400).json({ message: "Invalid gameId" });
+    }
+
+    const review = await Review.create({
+      user: userId,
+      game: gameId,
+      finalScore,
+      text,
+    });
+
+    await review.populate([
+      { path: "game", select: "title slug coverImageUrl" },
+      { path: "user", select: "displayName" },
+    ]);
+
+    // Create notifications for followers (don't block review creation if this fails)
+    try {
+      const followers = await Follow.find({ following: userId })
+        .select("follower")
+        .lean();
+
+      if (followers.length > 0) {
+        const gameTitle = review.game?.title || "a game";
+        const authorName = review.user?.displayName || "Someone";
+
+        const notifications = followers.map((follow) => ({
+          user: follow.follower,
+          actor: userId,
+          review: review._id,
+          type: "review_created",
+          message: `${authorName} wrote a review for ${gameTitle}`,
+          read: false,
+        }));
+
+        if (notifications.length > 0) {
+          await Notification.insertMany(notifications);
+        }
+      }
+    } catch (notificationError) {
+      console.error("Failed to create notifications:", notificationError);
+    }
+
+    // Remove game from games-to-review list (don't block review creation if this fails)
+    try {
+      await GamesToReview.findOneAndDelete({
+        user: userId,
+        game: gameId,
+      });
+    } catch (gamesToReviewError) {
       console.error("Failed to remove from games-to-review:", gamesToReviewError);
     }
 

@@ -33,11 +33,24 @@ export async function getReviews(req, res, next) {
   try {
     const userId = req.user?.sub;
 
-    const reviews = await Review.find({})
-      .sort({ createdAt: -1 })
-      .populate("user", "displayName") // only return displayName
-      .populate("game", "title slug coverImageUrl genres releaseDate") // select game fields you need
-      .lean();
+    // Pagination: ?page=1&limit=10
+    const limit = Math.min(
+      Math.max(parseInt(req.query.limit ?? "20", 10) || 20, 1),
+      50
+    );
+    const page = Math.max(parseInt(req.query.page ?? "1", 10) || 1, 1);
+    const skip = (page - 1) * limit;
+
+    const [reviews, totalCount] = await Promise.all([
+      Review.find({})
+        .sort({ createdAt: -1 })
+        .skip(skip)
+        .limit(limit)
+        .populate("user", "displayName") // only return displayName
+        .populate("game", "title slug coverImageUrl genres releaseDate") // select game fields you need
+        .lean(),
+      Review.countDocuments({}),
+    ]);
 
     // Get like/dislike counts and user's interaction for each review
     const reviewIds = reviews.map((r) => r._id);
@@ -77,7 +90,16 @@ export async function getReviews(req, res, next) {
       userInteraction: interactionMap.get(review._id.toString()) || null,
     }));
 
-    res.json(reviewsWithCounts);
+    res.json({
+      reviews: reviewsWithCounts,
+      pagination: {
+        total: totalCount,
+        page,
+        limit,
+        skip,
+        hasMore: skip + limit < totalCount,
+      },
+    });
   } catch (err) {
     next(err);
   }

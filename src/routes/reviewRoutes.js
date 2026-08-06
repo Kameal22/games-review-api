@@ -15,7 +15,7 @@ import reviewInteractionRoutes from "./reviewInteractionRoutes.js";
 
 const router = Router();
 
-router.get("/", optionalAuth, getReviews); // GET /api/reviews (public)
+router.get("/", optionalAuth, getReviews); // GET /api/reviews?q=&page=&limit= (public)
 router.get("/me", requireAuth, listMyReviews); // GET /api/reviews/me (requires auth)
 router.get("/highest-score", optionalAuth, fetchAndSortTenByHighestScore); // GET /api/reviews/highest-score (public)
 router.get("/check-exists/:gameId", requireAuth, checkReviewExists); // GET /api/reviews/check-exists/:gameId (requires auth - checks "my" review)

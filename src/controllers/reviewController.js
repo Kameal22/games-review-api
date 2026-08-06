@@ -1,10 +1,16 @@
 import mongoose from "mongoose";
 import { z } from "zod";
 import Review from "../models/Review.js";
+import Game from "../models/Game.js";
+import User from "../models/User.js";
 import Follow from "../models/Follow.js";
 import Notification from "../models/Notification.js";
 import ReviewInteraction from "../models/ReviewInteraction.js";
 import GamesToReview from "../models/GamesToReview.js";
+
+function escapeRegex(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
 
 // Reusable score validator (0–10)
 const score = z.number().min(0).max(10);
@@ -41,15 +47,33 @@ export async function getReviews(req, res, next) {
     const page = Math.max(parseInt(req.query.page ?? "1", 10) || 1, 1);
     const skip = (page - 1) * limit;
 
+    // Search: ?q=elden (matches game title, author displayName, or review text)
+    const q = typeof req.query.q === "string" ? req.query.q.trim() : "";
+    let filter = {};
+    if (q) {
+      const regex = new RegExp(escapeRegex(q), "i");
+      const [matchingGames, matchingUsers] = await Promise.all([
+        Game.find({ title: regex }).select("_id").lean(),
+        User.find({ displayName: regex }).select("_id").lean(),
+      ]);
+      filter = {
+        $or: [
+          { game: { $in: matchingGames.map((g) => g._id) } },
+          { user: { $in: matchingUsers.map((u) => u._id) } },
+          { text: regex },
+        ],
+      };
+    }
+
     const [reviews, totalCount] = await Promise.all([
-      Review.find({})
+      Review.find(filter)
         .sort({ createdAt: -1 })
         .skip(skip)
         .limit(limit)
         .populate("user", "displayName") // only return displayName
         .populate("game", "title slug coverImageUrl genres releaseDate") // select game fields you need
         .lean(),
-      Review.countDocuments({}),
+      Review.countDocuments(filter),
     ]);
 
     // Get like/dislike counts and user's interaction for each review

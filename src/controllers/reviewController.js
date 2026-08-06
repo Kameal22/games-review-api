@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 import { z } from "zod";
 import Review from "../models/Review.js";
 import Game from "../models/Game.js";
-import User from "../models/User.js";
 import Follow from "../models/Follow.js";
 import Notification from "../models/Notification.js";
 import ReviewInteraction from "../models/ReviewInteraction.js";
@@ -47,22 +46,13 @@ export async function getReviews(req, res, next) {
     const page = Math.max(parseInt(req.query.page ?? "1", 10) || 1, 1);
     const skip = (page - 1) * limit;
 
-    // Search: ?q=elden (matches game title, author displayName, or review text)
+    // Search: ?q=elden (matches game title only)
     const q = typeof req.query.q === "string" ? req.query.q.trim() : "";
     let filter = {};
     if (q) {
       const regex = new RegExp(escapeRegex(q), "i");
-      const [matchingGames, matchingUsers] = await Promise.all([
-        Game.find({ title: regex }).select("_id").lean(),
-        User.find({ displayName: regex }).select("_id").lean(),
-      ]);
-      filter = {
-        $or: [
-          { game: { $in: matchingGames.map((g) => g._id) } },
-          { user: { $in: matchingUsers.map((u) => u._id) } },
-          { text: regex },
-        ],
-      };
+      const matchingGames = await Game.find({ title: regex }).select("_id").lean();
+      filter = { game: { $in: matchingGames.map((g) => g._id) } };
     }
 
     const [reviews, totalCount] = await Promise.all([

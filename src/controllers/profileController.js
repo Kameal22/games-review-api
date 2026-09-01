@@ -2,11 +2,13 @@ import User from "../models/User.js";
 import Watchlist from "../models/Watchlist.js";
 import Review from "../models/Review.js";
 
-// GET /api/me
+// GET /api/profile
 export async function getMyProfile(req, res, next) {
   try {
     const userId = req.user?.sub;
-    if (!userId) return res.status(401).json({ message: "Unauthorized" });
+    if (!userId) {
+      return res.json({ authenticated: false });
+    }
 
     // 1) basic user info
     const user = await User.findById(userId).lean();
@@ -64,6 +66,7 @@ export async function getMyProfile(req, res, next) {
     };
 
     res.json({
+      authenticated: true,
       user: {
         _id: user._id,
         email: user.email,
@@ -176,9 +179,8 @@ export async function updateUserBio(req, res, next) {
     const { bio } = req.body;
     const userId = req.user?.sub;
 
-    // Check authorization
     if (!userId) {
-      return res.status(401).json({ message: "Unauthorized" });
+      return res.json({ authenticated: false, message: "Login to update your bio" });
     }
 
     // Update user
@@ -193,6 +195,7 @@ export async function updateUserBio(req, res, next) {
     }
 
     res.json({
+      authenticated: true,
       message: "Bio updated successfully",
       user: {
         _id: user._id,

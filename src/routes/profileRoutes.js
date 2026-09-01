@@ -4,13 +4,12 @@ import {
   getUserProfile,
   updateUserBio,
 } from "../controllers/profileController.js";
-import { requireAuth, optionalAuth } from "../middleware/auth.js";
+import { optionalAuth } from "../middleware/auth.js";
 
 const router = Router();
 
-router.get("/", requireAuth, getMyProfile); // GET /api/profile (requires auth - "my" profile)
-// Fetch profile by displayName instead of userId
+router.get("/", optionalAuth, getMyProfile); // GET /api/profile (optional auth - "my" profile when logged in)
+router.put("/bio", optionalAuth, updateUserBio); // PUT /api/profile/bio (optional auth)
 router.get("/:displayName", optionalAuth, getUserProfile); // GET /api/profile/:displayName (public)
-router.put("/bio", requireAuth, updateUserBio); // PUT /api/profile/bio (requires auth)
 
 export default router;
